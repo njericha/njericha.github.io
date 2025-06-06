@@ -1,0 +1,438 @@
+---
+title: "Approximate Matrix Rank"
+author:
+  - name: "Nicholas Richardson"
+    affiliation: "University of British Columbia"
+date: "28 February 2024"
+categories: [paper,matrix, singular values, low-rank]
+execute:
+  freeze: true
+bibliography: references.bib
+callout-icon: false
+engine: julia
+---
+
+# Background
+Finding the rank of a matrix is straightforward (not necessarily cheep!): perform a singular value decomposition, and count the number of nonzero singular values. But what if the matrix is perturbed by some (Gaussian) noise? The perturbed matrix has full rank, even for a very small amount of noise. We want a notion of "approximate" rank for this perturbed matrix that matches up with the rank of the original matrix.
+
+# Definition
+Let us define the $\epsilon$-rank of a matrix.
+
+::: {#def-epsilon-rank}
+The $\epsilon$-rank $R$ of a matrix $A$ is the smallest rank obtainable by an $\epsilon$-perturbation of the matrix $A+E$:
+$$
+\mathrm{rank}_{\epsilon}(A)=\min_{\left\lVert E \right\rVert\leq \epsilon}\mathrm{rank}(A+E).
+$$ {#eq-epsilon-rank}
+:::
+
+Here we use $\left\lVert E \right\rVert=\max_{\lVert v \rVert_{2}=1}\left\lVert Ev \right\rVert_{2}$ to denote the the operator norm.
+
+::: {#rem-stable}
+This definition is *stable* in the sense that adding a small amount of noise to a matrix does not effect the $\epsilon$-rank. This is unlike the traditional rank where adding noise to a low rank matrix can turn it into a full rank matrix, even for an "$\epsilon$" amount of noise.
+:::
+
+# Basic Properties
+
+To familiarize ourselves with the definition, we highlight a few straightforward properties.
+
+(@) Non-increasing as a function of $\epsilon\,$: $$\mathrm{rank}_{\epsilon}(A)\leq\mathrm{rank}_{\phi}(A)$$ for $\epsilon\geq \phi$.
+
+::: {.proof}
+If $\epsilon \geq \phi$, then the set $\{E \mid \left\lVert E \right\rVert\leq \epsilon\} \supseteq \{E \mid \left\lVert E \right\rVert\leq \phi\}$. Minimizing over the larger set can only result in the same or smaller minimum value since it contains the smaller set.
+:::
+
+(@) Consistency with matrix rank: $$\mathrm{rank}_{0}(A)=\mathrm{rank}(A).$$
+
+::: {.proof}
+If $\epsilon=0$, the minimization is over the singlton set $E \in \{0\in\mathbb{R}^{m\times n}\}$. Therefore $\mathrm{rank}_{0}(A)=\mathrm{rank}(A+0)=\mathrm{rank}(A)$.
+:::
+
+(@) The zero matrix $0\in\mathbb{R}^{m\times n}$ has $$\mathrm{rank}_{\epsilon}(0)=0$$ for all $\epsilon \geq 0$.
+
+::: {.proof}
+We note $E=0\in\mathbb{R}^{m\times n}$ satisfies $\left\lVert E \right\rVert\leq \epsilon$ for all $\epsilon\geq 0$, so $\mathrm{rank}(0+E)=0$. The $\epsilon$-rank is the minimization over all such $E$, but $\mathrm{rank}(X)\geq 0$, therefore this is the minimum.
+:::
+
+# Advanced Properties
+
+Now we highlight the three important properties proved later:
+
+1) For nonzero matrices $A$, $\mathrm{rank}_{\epsilon}(A)$ is the number of singular values of $A$ larger than $\epsilon$.
+2) Stability: there exists some $\delta>0$ such that for all $\left\lVert B \right\rVert \leq \delta$, $$\mathrm{rank}_{\epsilon}(A+B)=\mathrm{rank}_{\epsilon}(A).$$
+3) Rank recovery: $\mathrm{rank}_{\epsilon}(A+E)=\mathrm{rank}(A)$ for $\left\lVert E \right\rVert \leq \epsilon < \sigma_{r}/2$ where $\sigma_{r}$ is the smallest nonzero singular value of $A$.
+
+To showcase the last property, we have a numerical example for when $E$ is some Gaussian noise.
+
+## Thresholding Singular Values Characterization
+::: {#thm-sv-characterization}
+$\mathrm{rank}_{\epsilon}(A)$ is the number of singular values (strictly) larger than $\epsilon$.
+:::
+
+::: {.proof}
+
+First, suppose $A = 0\in\mathbb{R}^{m\times n}$. The theorem holds since there are no singular values strictly larger than $\epsilon$ for any $\epsilon \geq 0$, and $\mathrm{rank}_{\epsilon}(0)=\mathrm{rank}(0)=0$ by the basic properties.
+
+So now suppose $A\neq 0$. Let $A$ have singular values $\sigma_{1}\geq\dots \sigma_{r} > \sigma_{r+1}\geq \dots \geq\sigma_{k}\geq 0$ where $k=\min(m,n)$. Suppose $\sigma_{r+1}\leq\epsilon <\sigma_{r}$.
+
+We prove this in two parts. First, that there exits a matrix $E$, $\left\lVert E \right\rVert _{2}\leq \epsilon$ where $\text{rank}(A+E)=r$, yielding an upper bound $\mathrm{rank}_{\epsilon}(A)\leq r$. Second, that any matrix $E$ satisfying $\text{rank}(A+E)$ must have $\left\lVert E \right\rVert _{2} > \epsilon$, ruling out any smaller bound $\mathrm{rank}_{\epsilon}(A)\nleq r-1$.
+
+*Part 1*: We first show $\mathrm{rank}_{\epsilon}(A)\leq r$.
+
+Let $A=U\Sigma V^\top$ be the (full sized) SVD of $A$, so that $\Sigma = \text{Diag}(\sigma_{1},\dots,\sigma_{k})\in \mathbb{R}^{k\times k}$.
+Let $D=\text{Diag}(0,\dots,0,\sigma_{r+1},\dots,\sigma_{k})\in\mathbb{R}^{k\times k}$, and $E=-U D V^\top$.
+
+Now, we have
+$$
+\begin{align}
+A+E=U(\Sigma-D)V^\top =U\text{Diag}(\sigma_{1},\dots,\sigma_{r},0,\dots,0)V^\top
+\end{align}
+$$
+
+so it is true that $\mathrm{rank}(A+E)=r$. It is also true that $\left\lVert E \right\rVert\leq \epsilon$ since
+$$
+\begin{align}
+\left\lVert E \right\rVert &= \left\lVert UDV^\top \right\rVert \\
+&= \left\lVert D \right\rVert \\
+&= \sigma_{r+1} \\
+&\leq\epsilon.
+\end{align}
+$$
+
+This follows from the norm preserving property of orthonormal matrices.
+Therefore, we have $\mathrm{rank}_{\epsilon}(A)=\min_{\left\lVert E \right\rVert\leq \epsilon} \mathrm{rank}(A+E)\leq \mathrm{rank}(A+E)= r$.
+
+*Part 2*: We now show $\mathrm{rank}_{\epsilon}(A)\nleq r-1$ by contradiction.
+
+*Intuition*: To cancel out more singular values of $A$, we would need to have larger diagonal elements in $D$, thus breaking $\left\lVert E \right\rVert\leq \epsilon$.
+
+Suppose there was a matrix $E$ such that $\mathrm{rank}(A+E)\leq r-1$. This would mean $\sigma_{r}(A+E)=0$ since every singular value after the rank of $A+E$ would be $0$.
+
+::: {#lem-sv-inequality}
+For any matricies $X,Y\in \mathbb{R}^{m\times n}$, $k=\min(m,n)$,
+$$
+\sigma_{i+j-1}(X+Y)\leq \sigma_{i}(X)+\sigma_{j}(Y)
+$$
+
+for all $i,j$ between $1\leq i,j\leq k$ where $\sigma_{i}(X)$ evaluates to the $i$th largest singular value of $X$.
+
+See Theorem 3.3.16(a) [@hornTopicsMatrixAnalysis1991].
+:::
+
+Using @lem-sv-inequality with $X=A+E$, $Y=-E$, $i=r$, and $j=1$, and noting singular values do not change when negating a matrix $\sigma_i(-X)=\sigma_i(X)$, we obtain
+$$\sigma_{i}(A) \leq \sigma_{i}(A+E) + \sigma_{1}(E).$$
+
+Rearranging gives us
+$$
+\sigma_{1}(E)\geq \sigma_{r}(A)-\sigma_{i}(A+E)=\sigma_{r}-0>\epsilon.
+$$
+Therefore $\left\lVert E \right\rVert = \sigma_{1}(E)$ is necessarily bigger than $\epsilon$ if $\mathrm{rank}(A+E)\leq r-1$. This compleates the proof.
+:::
+
+### Immediate Concequencies
+
+::: {#cor-rank-consistancy}
+### Generalized Rank Consistancy
+
+Let $A\neq 0$ and $\sigma_r$ be the smallest nonzero singular value of $A$. For all $\epsilon \in [0,\sigma_r)$,
+$$
+\text{rank}_{\epsilon}(A) = \text{rank}(A).
+$$
+:::
+
+::: {.proof}
+This follows immediately from @thm-sv-characterization by noting $\epsilon \in [0,\sigma_r)$ implies all nonzero singular values of $A$ are larger than $\epsilon$.
+:::
+
+::: {#cor-achievable-argument}
+### Achievable Argument
+
+There exists a matrix $E$, with $\left\lVert E \right\rVert_{2}\leq \epsilon$ such that
+$$\mathrm{rank}_{\epsilon}(A)=\mathrm{rank}(A+E).$$
+:::
+
+::: {.proof}
+For nonzero $A$, we use the proof of @thm-sv-characterization, to note $E=-UDV^\top$ satisfies $\mathrm{rank}_{\epsilon}(A)=\mathrm{rank}(A+E)$. Here we say $A$ has the SVD $A=U\Sigma V^\top$, $\Sigma=\text{Diag}(\sigma_{1},\dots,\sigma_{r},\sigma_{r+1},\dots,\sigma_{k})$, $D=\text{Diag}(0,\dots,0,\sigma_{r+1},\dots,\sigma_{k})$, and $\sigma_{r+1} \leq \epsilon < \sigma_{r}$. In the case $A=0$, $E=0$ satisfies the claim.
+:::
+
+## Rank Stability
+
+::: {#thm-rank-stability}
+Let $A\in\mathbb{R}^{m\times n}$ and $\epsilon>0$ not equal to a singular value of $A$. Then $\exists \delta>0$ such that for all $\left\lVert B \right\rVert\leq \delta$,
+$$
+\mathrm{rank}_{\epsilon}(A+B)=\mathrm{rank}_{\epsilon}(A).
+$$
+:::
+
+::: {.proof}
+
+Let $\epsilon>0$.
+
+*Case 1:* $\epsilon$ is between two singular values of $A$: $\sigma_{r+1}(A)<\epsilon<\sigma_{r}(A)$.
+
+Let $\left\lVert B \right\rVert=\sigma_{1}(B)\leq \delta$ where $0<\delta \leq \epsilon-\sigma_{r+1}(A)$ and $\delta<\sigma_{r}(A)-\epsilon$.
+
+In this case, we just need to show that $\epsilon$ is between the $r$th and $(r+1)$th singular value of $A+B$. Then by @thm-sv-characterization, we have $\mathrm{rank}_{\epsilon}(A+B)=r$, the number of singular values larger than $\epsilon$. This matches $\mathrm{rank}_{\epsilon}(A)=r$ because $\sigma_{r+1}(A)<\epsilon<\sigma_{r}(A)$.
+
+Using @lem-sv-inequality with $i=r+1$, $j=1$, $X=A$, and $Y=B$ gives us $$\sigma_{r+1}(A+B)\leq \sigma_{r+1}(A) +\sigma_{1}(B) \leq (\epsilon-\delta) + \delta \leq \epsilon.$$
+
+Using @lem-sv-inequality again but with $i=r$, $j=1$, $X=A+B$, and $Y=-B$ gives us
+
+$$
+\sigma_{r}(A)\leq \sigma_{r}(A+B)+\sigma_{1}(-B).
+$$
+
+
+Since $\sigma_{i}(-X)=\sigma_{i}(X)$, rearranging gives us
+
+$$
+\sigma_{r}(A+B)\geq \sigma_{r}(A) -\sigma_{1}(B)> (\epsilon+\delta) - \delta=\epsilon.
+$$
+
+Therefore, $\sigma_{r+1}(A+B)\leq \epsilon < \sigma_{r}(A+B)$ which completes the case.
+
+*Case 2:* $\epsilon>\sigma_{1}(A)$
+
+Let $\left\lVert B \right\rVert\leq \delta$ where $0<\delta \leq \epsilon-\sigma_{1}$.
+
+Here, we have $\mathrm{rank}_{\epsilon}(A)=0$ by @thm-sv-characterization so we only need to show $\sigma_{1}(A+B)\leq \epsilon$ to obtain $\mathrm{rank}_{\epsilon}(A+B)=0$.
+
+Using @lem-sv-inequality with $i=1$, $j=1$, $X=A$, and $Y=B$ gives us $$\sigma_{1}(A+B)\leq \sigma_{1}(A) +\sigma_{1}(B) \leq (\epsilon-\delta) + \delta \leq \epsilon.$$
+*Case 3:* $\epsilon < \sigma_{k}$, $k=\min(m,n)$
+
+Let $\left\lVert B \right\rVert\leq \delta$ where $0<\delta < \sigma_{k} - \epsilon$.
+
+In this last case, $\mathrm{rank}_{\epsilon}(A)=k$ so we wish to show $\sigma_{k}(A+B)>\epsilon$ which would give us $\mathrm{rank}_{\epsilon}(A+B)=k$.
+
+Using @lem-sv-inequality with $i=k$, $j=1$, $X=A+B$, and $Y=-B$ gives us
+
+$$\sigma_{k}(A+B)\geq \sigma_{k}(A) -\sigma_{1}(B)> (\epsilon+\delta) - \delta=\epsilon.$$
+In all cases, we can find such a $\delta>0$ where $\left\lVert B \right\rVert\leq \delta$ implies $\mathrm{rank}_{\epsilon}(A+B)=\mathrm{rank}_{\epsilon}(A)$.
+
+:::
+
+::: {#cor-rank-recovery}
+
+### Rank recovery
+
+Let $A,B\in\mathbb{R}^{m\times n}$ where $\left\lVert B \right\rVert_{2} < \sigma_r(A) / 2$. Then $$\mathrm{rank}_{\epsilon}(A+B)=\mathrm{rank}(A)=r$$ for all $\epsilon$ between $\left\lVert B \right\rVert_{2} \leq \epsilon < \sigma_{r}/2.$
+:::
+
+Intuition: If the noise, $B$, is small enough, then we can filter it out with any $\epsilon$ bigger than the noise, but not so big that it kills the singular values of $A$. In particular, a minimizing argument for the $\epsilon$-rank would be $E=-B$.
+
+::: {.proof}
+
+*Case 1:* $1 \leq r<k=\min(m,n)$ and $\left\lVert B \right\rVert_{2} \leq \epsilon < \sigma_{r}/2.$
+
+This is similar to case 1 of the proof to @thm-rank-stability; noting the following. We pick $\delta = \epsilon$, and have $\sigma_{r+1}(A)=0$ so it is true that $\delta \leq \epsilon - \sigma_{r+1}(A)=\epsilon$, and $\delta<\sigma_r(A) - \epsilon<\sigma_r(A) - \sigma_r(A)/2=\sigma_r(A)/2$.
+
+So by @thm-rank-stability, $\mathrm{rank}_\epsilon(A+B) = \mathrm{rank}_\epsilon (A)$, and by @cor-rank-consistancy, $\mathrm{rank}_\epsilon(A)=r=\mathrm{rank}(A)$ because $\epsilon<\sigma_{r}(A)/2 < \sigma_r(A)$.
+
+*Case 2:* $r=k=\min(m,n)$ and $\left\lVert B \right\rVert_{2} \leq \epsilon < \sigma_{r}/2.$
+
+This is similar to case 3 of the proof to @thm-rank-stability; noting the following. We pick $\delta=\epsilon$ again, and have $\delta<\sigma_r(A) - \epsilon<\sigma_r(A) - \sigma_r(A)/2=\sigma_r(A)/2$ as before. The rest is similar to the first case of this proof.
+
+:::
+
+::: {#rem-rank-recovery}
+The condition that $\epsilon < \sigma_r/2$ in @cor-rank-recovery could be made into $\epsilon < \alpha\sigma_r$ for any $0<\alpha<1$. The trade of goes as follows: larger $\alpha$ mean you can afford to make $\epsilon$ bigger, at the expence of limiting how much noise you can tollerate: $\left\lVert B \right\rVert_{2} \leq \delta < \sigma_r - \epsilon < (1-\alpha)\sigma_r$. But making $\alpha$ smaller than $1/2$ means $\delta$ is limited by $\delta \leq \epsilon - \sigma_{r+1}(A) = \epsilon - 0 < \alpha\sigma_r$. So the "best" $\alpha$, the one that tollerates the highest amount of noise, is $\alpha=1/2$.
+:::
+
+### The Random Noise Case
+::: {#cor-gaussian-rank-recovery}
+Let $Z\in\mathbb{R}^{m\times n}$ be a Gaussian matrix with standard normal entries $Z_{ij}\sim\mathcal{N}(0,1)$ and $\sigma_{r}$ be the largest nonzero singular value of $A\in\mathbb{R}^{m\times n}$. If $\sigma_{r}>2(\sqrt{ m }+\sqrt{ n })$, then for $(\sqrt{ m }+\sqrt{ n } +t) \leq \epsilon <\sigma_{r}/2$, $$\mathrm{rank}_{\epsilon}(A+Z)=\mathrm{rank}(A)$$ with high probability at least $1-2\exp(-ct^2)$.
+:::
+
+::: {#rem-noise-extention}
+This can be extended to the case where $Z_{ij}\sim \mathcal{N}(0,\sigma^2)$, in which case you would need $(\sigma(\sqrt{ m }+\sqrt{ n }) +t) \leq \epsilon <\sigma_{r}/2$. I do not show the claim in this more general case since I have not worked out the probability you would get.
+:::
+
+Picking an $\epsilon$ larger, and as close as you can to $\sigma_{r}/2$ gives yourself the best chance of correct recovery. Picking an epsilon higher than this could cause you to underestimate the rank. Since you often do not know the smallest nonzero singular value of our matrix $\sigma_{r}$ in practice, you may wish to pick $\epsilon$ only slightly above the expected operator norm of your noise to balance being above your noise, but below the important data.
+
+::: {.proof}
+By Corollary 7.3.3 [@vershyninHighDimensionalProbability2018], for standard normal matrices $Z$, we have $\left\lVert Z \right\rVert_{2}<\sqrt{ m }+\sqrt{ n }+t$ with high probability at least $1-2\exp(-ct^2)$. So picking $\left\lVert Z \right\rVert_{2}<(\sqrt{ m }+\sqrt{ n } +t) \leq \epsilon <\sigma_{r}/2$ gives us the conditions for the @cor-rank-recovery to be satisfied, completing the proof.
+:::
+
+# Numerical Test of Rank Recovery
+Let us generate a random low rank matrix.
+
+```{julia}
+#| echo: false
+import Pkg
+Pkg.activate(".");
+```
+
+```{julia}
+using Random
+Random.seed!(314159)
+
+m, n, r = 9, 9, 4
+
+X = randn(m, r)
+Y = randn(r, n)
+A = 5 * (X * Y)
+```
+
+We also need some random noise.
+```{julia}
+Z = randn(m, n)
+```
+
+We extract the singular values of $A$ and $Z$ as follows.
+
+```{julia}
+using LinearAlgebra
+
+sv_A = svdvals(A)
+
+# Ignore very small singular values since they are numerical noise
+cutoff = sqrt(eps())
+sv_A[sv_A .<= cutoff] .= 0
+
+sv_Z = svdvals(Z)
+```
+
+Next we check if the singular values of $A$ are sufficiently larger than $Z$.
+```{julia}
+@show minimum(sv_A[sv_A .!= 0])
+@show maximum(sv_Z)
+
+# Is the theorem hypothesis satisfied?
+@show maximum(sv_Z) < minimum(sv_A[sv_A .!= 0])/2;
+```
+
+Now we add the noise to the function and obtain the singular values.
+
+```{julia}
+Y = A + Z
+
+sv_AZ = svdvals(Y)
+
+@show sv_AZ;
+```
+
+Let us check the $\epsilon$-rank of $Y$ and see if it matches the original rank of $A$. We use $\epsilon=\sqrt{m} + \sqrt{n} + 2$ to give a good chance we are above the largest singular value of our noise $Z$.
+```{julia}
+function erank(A, ϵ=1; σ=svdvals(A))
+    return count(σ .> ϵ)
+end
+
+ϵ = sqrt(m) + sqrt(n) + 2
+r_estimate = erank(Y, ϵ)
+
+@show r_estimate
+
+@show r == r_estimate;
+```
+
+We can check what the $\epsilon$-rank looks like as a function of $\epsilon$. The orange shaded segment highlights where the $\epsilon$-rank of the noisy matrix $Y$ matches the rank of the original matrix $A$.
+
+```{julia}
+import Pkg
+Pkg.add("Plots")
+using Plots
+
+N = 300
+x = range(0,maximum(svdvals(Y))*1.05, length=N)
+σ = svdvals(Y) # compute singular values once
+y = [erank(Y, xi; σ) for xi in x]
+
+p = plot(x, y; label="\$\\epsilon\$-rank(\$Y\$)")
+xlabel!("\$\\epsilon\$")
+ylabel!("\$\\epsilon\$-rank")
+
+a = findfirst(y .== r)
+b = findlast(y .== r)
+
+plot!(x[[a, b]], [r, r];
+  label="\$\\epsilon\$-rank(\$Y\$) = rank(\$A\$)",
+  linewidth=4,
+  alpha= 0.6)
+display(p)
+```
+
+```{julia}
+@show (x[a], x[b]);
+```
+
+Above, we note the domain of $\epsilon$ where the $\epsilon$-rank of the noisy matrix $Y$ matches the rank of $A$. From the hypothesis, all we are gaurenteed (with high probability) is that the two measures match when $\epsilon$ is between:
+```{julia}
+lower, upper = sqrt(m) + sqrt(n), minimum(sv_A[sv_A .!= 0])/2
+@show (lower, upper);
+```
+
+It is interesting to note that the range in practice is much larger than the theoretical range. Why is this? In the worst case, the noise $Z$ could be perfectly aligned with $A$ so that the largest singular value of $Z$ cancels out the smallest nonzero singular value of $A$. This is why we need $\left\lVert Z\right\rVert _2 \approx \sqrt{m} + \sqrt{m} < \sigma_r /2$ to ensure this cannot happen. I belive this could be relaxed since a random noise matrix is likely only partialy aligned with the singular values $A$.
+
+## Connection to low rank approximation
+We can plot the rank $j$ against the error between $Y$ and the best rank $j$ approximation to $Y$,
+$$\left\lVert Y - \hat{Y_j}\right\rVert _F = \left(\sum_{i = j+1}^k \sigma_i(Y) ^2\right)^{1/2},
+$$
+
+where $hat{Y}_j$ is the best rank $j$ approximation, to get the following plot.
+
+```{julia}
+k = min(m,n)
+y = [(sum(σ[j+1:end] .^ 2))^(0.5) for j in 0:k]
+p = plot(y, 0:k; legend=false)
+xlabel!("\${||} Y - \\hat{Y}_j {||} _F\$")
+ylabel!("rank-\$j\$")
+display(p)
+```
+
+This looks like a continuous version of the $\epsilon$-rank! And, we observe a "kink" in the graph exactly at the rank of our low rank matrix $A$. This modivates the use of "kink finding" to learn what rank our un-noisy matrix should be.
+
+Some examples of conditions for finding this kink are:
+
+* point of maximum second derivative
+
+* point of maximum curvature
+
+* minimum least-squares fit using two straight lines, where rank $j$ is the break point between lines.
+
+To be sure the two quantities are related, we plot the two graphs overlayed.
+
+```{julia}
+p = plot(y, 0:k; label="best rank \$j\$ fit")
+x = range(0, maximum(y), length=N)
+plot!(x, [erank(Y, xi; σ) for xi in x]; label="\$\\epsilon\$-rank(\$Y\$)")
+
+xlabel!("\${||} Y - \\hat{Y}_j {||} _F\$ or \$\\epsilon\$")
+ylabel!("rank-\$j\$ or \$\\epsilon\$-rank(\$Y\$)")
+
+display(p)
+```
+
+The reason for this similarity is that the error
+$$
+\left(\sum_{i = j+1}^k \sigma_i(Y) ^2\right)^{1/2}
+$$
+
+is the $p=2$ Schatten norm of the error
+
+$$
+\left\lVert Y - \hat{Y_j}\right\rVert _p = \left(\sum_{i = j+1}^k \sigma_i(Y) ^p\right)^{1/p},
+$$
+
+where the limit as $p\rightarrow \infty$ gives the largest singular value left $\sigma _{j+1}(Y)$. This lines up exactly at the jumps when $\epsilon = \sigma _{j+1}(Y)$. We can see this by replotting the two functions for some large $p=20$.
+
+```{julia}
+p=20
+y = [(sum(σ[j+1:end] .^ p))^(1/p) for j in 0:k]
+p = plot(y, 0:k; label="best rank-\$j\$ fit")
+x = range(0, maximum(y), length=N)
+plot!(x, [erank(Y, xi; σ) for xi in x]; label="\$\\epsilon\$-rank(\$Y\$)")
+
+xlabel!("\${||} Y - \\hat{Y}_j {||} _p\$ or \$\\epsilon\$")
+ylabel!("rank \$j\$ or \$\\epsilon\$-rank(\$Y\$)")
+
+display(p)
+```
+
+# Future Work (To Do)
+Is there a good notion of approximate *non-negative* rank? In many applications, we would like to perform a non-negative low rank decomposition of our data, but may not know what the a good choice of rank is *a priori*. A quick definition one could try would be something like:
+
+The non-negative $\epsilon$-rank of a matrix $A$ would be
+$$
+\mathrm{rank}_{\epsilon}^+(A)=\min_{\left\lVert E \right\rVert_{2}\leq \epsilon,\, A+E \geq 0}\mathrm{rank}^{+}(A+E).
+$$
+
+But this has the non-negative rank function $\mathrm{rank}^{+}(A+E)$ embedded as an objective to an optimization problem which may be hard to work with.

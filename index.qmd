@@ -1,7 +1,7 @@
 ---
-title: "Quarto Academic, PhD"
+title: "Nicholas Richardson, PhD Candidate"
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/profiles/profile1.JPG"
+image: "files/profiles/Headshot Nicholas.jpg"
 page-navigation: false
 toc: false
 #sidebar: false
@@ -12,44 +12,42 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: mailto:njericha@math.ubc.ca
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: http://linkedin.com/in/nicholas-je-richardson/
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
+      href: https://orcid.org/0009-0006-9382-7227
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+      href: https://scholar.google.com/citations?hl=en&user=x8kE6HsAAAAJ
       target: _blank
+    # - icon: sun
+    #   text: Optimization Lab
+    #   href: https://mpf-optimization-laboratory.github.io/opt-blog/
+    #   target: _blank
+    # - icon: sun
+    #   text: Mathematics of Information, Learning and Data
+    #   href: https://mild.ubc.ca/
+    #   target: _blank
+    # - icon: sun
+    #   text: Institute of Applied Mathematics
+    #   href: https://www.iam.ubc.ca/
+    #   target: _blank
+    # - icon: building
+    #   text: UBC Math
+    #   href: https://www.math.ubc.ca/user/3599
+    #   target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net
 #      target: _blank
 
 listing:
   - id: recent-posts
-    contents: 
+    contents:
       - posts
       - posts/post-links.yml
     exclude:
@@ -60,37 +58,19 @@ listing:
     page-size: 3 #set same as max-times to remove the page number setting
     fields: [image, date, title, subtitle]
     max-description-length: 75
-    sort: 
+    sort:
       - "date desc"
       - "title asc"
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
-
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
-
-1. Star this repository so you can easily come back to the template  
-1. Folk this tempate and rename it to `yourgithubusername.github.io`  
-1. Update and edit `_quarto.yml` file for website setup  
-1. Update and add contents to `/posts`, `teaching.qmd`, `projects.yml`, and `people.qmd` and `/people` as needed.
-1. [Render and preview](https://quarto.org/docs/websites/) your website and [publish](https://quarto.org/docs/publishing/github-pages.html) it to your GitHub.
-1. Polish and fix any issues  
-1. Enjoy your website!
-
-## Experience
-
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
+From Burlington, ON, Canada, Nicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master's in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, machine learning, and optimisation.
 
 :::
 
 ## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+<!-- Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd) -->
 
 :::{#recent-posts}
 :::
