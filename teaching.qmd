@@ -1,11 +1,36 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
+# subtitle: "I teach."
 title-block-banner: false
 ---
 
+## University of British Columbia
 
-## Class 1
+### Teaching Instructor
+
+- Calculus I (Fall 2023, Winter 2025)
+
+### Teaching Assistant
+
+- Calculus I (Fall 2024)
+- Calculus II (Winter 2023)
+- Calculus III (Fall 2022)
+
+### Mathematics Learning Centre Tutor
+
+- Fall 2022 – Apr. 2024
+
+## University of Waterloo
+
+### Teaching Assistant
+
+- Mathematics of Music (Fall 2020, 2021)
+- Special Topics in Mathematical Connections: Math & Music (Fall 2021)
+- Complex Analysis (Winter 2020)
+- Calculus 1 & 2 (Fall 2019, Winter 2018, 2020, 2021)
+
+
+<!-- ## Class 1
 
 ::: {.grid}
 
@@ -58,10 +83,8 @@ Class 2 introduction.
 
 [Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
 
-Class 3 introduction. 
+Class 3 introduction.
 
 :::
 
-:::
-
-
+::: -->
