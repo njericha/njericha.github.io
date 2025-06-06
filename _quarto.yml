@@ -3,16 +3,16 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Academic Website for Nicholas J. E. Richardson"
+author-meta: "Nicholas Richardson"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
- 
+  title: "Nicholas J. E. Richardson"
+  #image: "https://quarto.org/quarto.png"
+  description: "Academic Website for Nicholas J. E. Richardson"
+
   navbar:
-    background: light
+    background: dark
 
     left:
 #      - text: Home
@@ -22,9 +22,9 @@ website:
           - text: News
             href: posts.qmd#category=news
           - text: Events
-            href: posts.qmd#category=event      
+            href: posts.qmd#category=event
           - text: Contact
-            href: contact.qmd             
+            href: contact.qmd
       - text: Research
         menu:
           - text: List of Publication
@@ -32,66 +32,66 @@ website:
           - text: Selected Papers
             href: posts.qmd#category=paper
           - text: Grants
-            href: projects.qmd                                
+            href: projects.qmd
       - text: Teaching
         href: teaching.qmd
       - text: Outreach
-        menu:        
+        menu:
         - text: Presentations
-          href: posts.qmd#category=presentation                   
+          href: posts.qmd#category=presentation
       - text: Group
         href: people.qmd
 
-    right: 
+    right:
       - text: CV
         href: files/nsf-biosketch.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/njericha/njericha.github.io
         target: _blank
       - text: "{{< fa brands bluesky >}}"
         href: https://bsky.app
-        target: _blank      
+        target: _blank
       - icon: rss
         href: posts.xml
         target: _blank
-  
+
   page-navigation: true
-  
-  page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
+
+  page-footer:
+    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>"
+    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    right:
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/njericha/njericha.github.io
         target: _blank
-      - text: "{{< fa brands bluesky >}}" 
+      - text: "{{< fa brands bluesky >}}"
         href: https://bsky.app
         target: _blank
       - icon: rss
         href: posts.xml
-        target: _blank  
-  
+        target: _blank
+
   search:
     location: navbar
     type: textbox
-  
+
   reader-mode: true
 
   draft-mode: unlinked
-  
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+
+  repo-url: https://github.com/njericha/njericha.github.io
 #  repo-actions: [edit, issue, source]
-  
+
   open-graph: true
-  
-  twitter-card: true 
-#  card-style: summary      
-  
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
-  
+
+  twitter-card: true
+#  card-style: summary
+
+  site-url: "https://njericha.github.io/"
+
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
+    anonymize-ip: true
 
 bibliography: references.bib
 
@@ -110,4 +110,3 @@ format:
     email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
-
