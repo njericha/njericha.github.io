@@ -29,12 +29,12 @@ website:
             href: contact.qmd
       - text: Research
         menu:
-          - text: List of Publication
+          - text: Publications
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Presentations
-            href: posts.qmd#category=presentation
+          # - text: Selected Papers
+          #   href: posts.qmd#category=paper
+          # - text: Presentations
+          #   href: posts.qmd#category=presentation
       - text: Teaching
         href: teaching.qmd
       - text: Music

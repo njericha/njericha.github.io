@@ -45,34 +45,36 @@ about:
 #      href: https://www.researchgate.net
 #      target: _blank
 
-listing:
-  - id: recent-posts
-    contents:
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort:
-      - "date desc"
-      - "title asc"
+# listing:
+#   - id: recent-posts
+#     contents:
+#       - posts
+#       - posts/post-links.yml
+#     exclude:
+#       title: ""
+#     type: grid
+#     max-items: 3
+# #    image-height: 150px
+#     page-size: 3 #set same as max-times to remove the page number setting
+#     fields: [image, date, title, subtitle]
+#     max-description-length: 75
+#     sort:
+#       - "date desc"
+#       - "title asc"
 ---
 
 :::{#hero-heading}
 
-From Burlington, ON, Canada, Nicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master's in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, machine learning, and optimisation.
+Nicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master's in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation.
 
 :::
 
-## Recent Posts
+<!-- ## Recent Posts -->
 <!-- Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd) -->
 
+<!--
 :::{#recent-posts}
 :::
 
 <p align="right">[All Posts »](/posts.qmd)</p>
+-->
