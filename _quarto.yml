@@ -57,9 +57,9 @@ website:
         href: https://github.com/njericha/njericha.github.io
         target: _blank
 
-  search:
-    location: navbar
-    type: textbox
+  search: false
+  #   location: navbar
+  #   type: textbox
 
   reader-mode: true
 
