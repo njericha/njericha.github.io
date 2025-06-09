@@ -18,9 +18,9 @@ I sell a cappella arrangements! Here's what's available so far:
 
 - [Grown-Up Christmas List by Amy Grant (for TTBB voices)](https://www.sheetmusicdirect.com/en-US/se/ID_No/1762582/Product.aspx)
 
+Download my [music resume](files/Nicholas_Richardson_Music_CV.pdf).
 
-
-# Music Resume
+<!-- # Music Resume
 
 ```{=html}
 <object data="files/Nicholas_Richardson_Music_CV.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
@@ -28,4 +28,4 @@ I sell a cappella arrangements! Here's what's available so far:
     You can <a href="files/Nicholas_Richardson_Music_CV.pdf">click here to
     download the PDF file.</a></p>
 </object>
-```
+``` -->

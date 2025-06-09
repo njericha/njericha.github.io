@@ -6,19 +6,13 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+Institute of Applied Mathematics
 
-School
+311-6356 Agricultural Road
 
-College
+Vancouver, BC Canada V6T 1Z2
 
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
+njericha at math.ubc.ca
 
 
 </center>

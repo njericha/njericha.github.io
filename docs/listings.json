@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/event-title/index.html",

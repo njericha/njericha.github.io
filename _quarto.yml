@@ -79,6 +79,9 @@ website:
   #   tracking-id: ""  # Please delete or replace with your own tracking ID
   #   anonymize-ip: true
 
+  drafts:
+    - posts.qmd
+
 bibliography: references.bib
 
 format:
