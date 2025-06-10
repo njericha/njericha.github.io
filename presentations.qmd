@@ -1,0 +1,9 @@
+---
+title: "Presentations"
+description-meta: "Conference slides and other presentations given"
+title-block-banner: false
+---
+
+11 April 2025 Discretizing Constraints
+at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC.
+[slides](files/presentations/11_april_iam_retreat.pdf.pdf)

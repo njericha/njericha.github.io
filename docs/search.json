@@ -21,46 +21,11 @@
     "text": "University of Waterloo\n\nTeaching Assistant\n\nMathematics of Music (Fall 2020, 2021)\nSpecial Topics in Mathematical Connections: Math & Music (Fall 2021)\nComplex Analysis (Winter 2020)\nCalculus 1 & 2 (Fall 2019, Winter 2018, 2020, 2021)"
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "music.html",
-    "href": "music.html",
-    "title": "Music",
-    "section": "",
-    "text": "I post a cappella covers and electronic songs \nBaritone, arranger, and sound engineer for The Northwest Collective a cappella group at UBC      \nI sell a cappella arrangements! Here’s what’s available so far:\n\nGrown-Up Christmas List by Amy Grant (for TTBB voices)\n\nDownload my music resume."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Institute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2\nnjericha at math.ubc.ca"
-  },
-  {
-    "objectID": "affiliations.html",
-    "href": "affiliations.html",
-    "title": "Affiliations",
-    "section": "",
-    "text": "Optimization Laboratory\nhttps://mpf-optimization-laboratory.github.io/opt-blog/\n\n\nMILD: Mathematics of Information, Learning and Data\nhttps://mild.ubc.ca/\n\n\nIAM: Institute of Applied Mathematics\nhttps://www.iam.ubc.ca/\n\n\nUniversity of British Columbia, Department of Mathematics\nhttps://www.math.ubc.ca\nPersonal Profile"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicholas Richardson, PhD Candidate",
-    "section": "",
-    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nNicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master’s in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation."
+    "text": "11 April 2025 Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
@@ -75,6 +40,48 @@
     "title": "Can quantum-mechanical description of physical reality be considered complete?",
     "section": "Links",
     "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicholas Richardson, PhD Candidate",
+    "section": "",
+    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nNicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master’s in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation."
+  },
+  {
+    "objectID": "affiliations.html",
+    "href": "affiliations.html",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Optimization Laboratory\nhttps://mpf-optimization-laboratory.github.io/opt-blog/\n\n\nMILD: Mathematics of Information, Learning and Data\nhttps://mild.ubc.ca/\n\n\nIAM: Institute of Applied Mathematics\nhttps://www.iam.ubc.ca/\n\n\nUniversity of British Columbia, Department of Mathematics\nhttps://www.math.ubc.ca\nPersonal Profile"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Institute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2\nnjericha at math.ubc.ca"
+  },
+  {
+    "objectID": "music.html",
+    "href": "music.html",
+    "title": "Music",
+    "section": "",
+    "text": "I post a cappella covers and electronic songs \nBaritone, arranger, and sound engineer for The Northwest Collective a cappella group at UBC      \nI sell a cappella arrangements! Here’s what’s available so far:\n\nGrown-Up Christmas List by Amy Grant (for TTBB voices)\n\nDownload my music resume."
+  },
+  {
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "posts/news-title/index.html#summary",
+    "href": "posts/news-title/index.html#summary",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
   },
   {
     "objectID": "publications.html#selected-work",

@@ -35,6 +35,8 @@ website:
           #   href: posts.qmd#category=paper
           # - text: Presentations
           #   href: posts.qmd#category=presentation
+          - text: Presentations
+            href: presentations.qmd
       - text: Teaching
         href: teaching.qmd
       - text: Music
