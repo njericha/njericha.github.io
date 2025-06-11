@@ -6,7 +6,7 @@ title-block-banner: false
 
 ## University of British Columbia
 
-### Teaching Instructor
+### Instructor
 
 - Calculus I (Fall 2023, Winter 2025)
 

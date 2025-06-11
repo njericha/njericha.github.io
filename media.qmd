@@ -1,0 +1,15 @@
+---
+title: "Media"
+description-meta: "Articles written or appeared in"
+title-block-banner: false
+---
+
+Some articles, interviews, and other media I've appeared in.
+
+"Meet Our Grad Students" profile for the University of British Columbia [link](https://www.grad.ubc.ca/campus-community/meet-our-students/richardson-nicholas) [backup](files/media/Nicholas%20Richardson%20-%20Graduate%20School%20-%20University%20of%20British%20Columbia%20-%20Vancouver%20-%20Canada.pdf)
+
+"Humans of Waterloo" graduate student highlight [link](https://publications.uwaterloo.ca/humans-of-waterloo-grad/nicholas-richardson.html) [backup](files/media/Nicholas%20Richardson%20-%20FP3370-HumansOfWaterloo.pdf)
+
+K.D. Fryer Gold Medal Recipient interview, from the University of Waterloo Mathematics Department [link](https://uwaterloo.ca/math/news/waterloo-knowing-my-fate-be-you) [backup](files/media/Waterloo%20knowing%20my%20fate%20is%20to%20be%20with%20you%20Mathematics%20University%20of%20Waterloo.pdf)
+
+CBC article on the University of Waterloo unveiling their elliptical pool table [link](https://www.cbc.ca/news/canada/kitchener-waterloo/university-of-waterloo-math-elliptical-pool-table-1.4741535) [backup](files/media/University%20of%20Waterloo%20brings%201st%20elliptical%20pool%20table%20to%20math%20department%20_%20CBC%20News.pdf)

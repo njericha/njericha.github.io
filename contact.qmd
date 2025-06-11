@@ -4,7 +4,13 @@ description-meta: "Reach out to me with questions and comments"
 title-block-banner: false
 ---
 
-<center>
+<!-- <center> -->
+
+Feel free to get in touch with me through my UBC email!
+
+njericha at math.ubc.ca
+
+Room LSK 309
 
 Institute of Applied Mathematics
 
@@ -12,7 +18,6 @@ Institute of Applied Mathematics
 
 Vancouver, BC Canada V6T 1Z2
 
-njericha at math.ubc.ca
+{{< include /files/includes/_socialshare.qmd >}}
 
-
-</center>
+<!-- </center> -->

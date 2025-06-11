@@ -37,10 +37,16 @@ website:
           #   href: posts.qmd#category=presentation
           - text: Presentations
             href: presentations.qmd
+          - text: Notes
+            href: notes.qmd
       - text: Teaching
         href: teaching.qmd
       - text: Music
         href: music.qmd
+      - text: Media
+        href: media.qmd
+      - text: Photography
+        href: njerichardson.weebly.com
 
     right:
       - text: CV
@@ -63,7 +69,7 @@ website:
   #   location: navbar
   #   type: textbox
 
-  reader-mode: true
+  reader-mode: false
 
   draft-mode: unlinked
 

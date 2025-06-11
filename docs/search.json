@@ -25,7 +25,21 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "11 April 2025 Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides"
+    "text": "02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website"
+  },
+  {
+    "objectID": "presentations.html#conferences",
+    "href": "presentations.html#conferences",
+    "title": "Presentations",
+    "section": "",
+    "text": "02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website"
+  },
+  {
+    "objectID": "presentations.html#other-talks",
+    "href": "presentations.html#other-talks",
+    "title": "Presentations",
+    "section": "Other Talks",
+    "text": "Other Talks\n11 Apr 2025: Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides\n04 Mar 2025: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. slides original paper\n18 Feb 2025: Mathematics of Music: Connections from harmonics to tuning, Math Graduate Seminar, Vancouver BC. notes\n15 Apr 2024: Approximate Matrix Rank, 2024 Institute of Applied Math Retreat, Vancouver, BC. slides\n10 Oct 2023: Tensor Decompositions, Optimization & Applications, Math Graduate Seminar, Vancouver BC."
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
@@ -40,6 +54,13 @@
     "title": "Can quantum-mechanical description of physical reality be considered complete?",
     "section": "Links",
     "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "music.html",
+    "href": "music.html",
+    "title": "Music",
+    "section": "",
+    "text": "I post a cappella covers and electronic songs \nBaritone, arranger, and sound engineer for The Northwest Collective a cappella group at UBC      \nI sell a cappella arrangements! Here’s what’s available so far:\n\nGrown-Up Christmas List by Amy Grant (for TTBB voices)\n\nDownload my music resume."
   },
   {
     "objectID": "index.html",
@@ -60,14 +81,21 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Institute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2\nnjericha at math.ubc.ca"
+    "text": "Feel free to get in touch with me through my UBC email!\nnjericha at math.ubc.ca\nRoom LSK 309\nInstitute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2"
   },
   {
-    "objectID": "music.html",
-    "href": "music.html",
-    "title": "Music",
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
     "section": "",
-    "text": "I post a cappella covers and electronic songs \nBaritone, arranger, and sound engineer for The Northwest Collective a cappella group at UBC      \nI sell a cappella arrangements! Here’s what’s available so far:\n\nGrown-Up Christmas List by Amy Grant (for TTBB voices)\n\nDownload my music resume."
+    "text": "Some articles, interviews, and other media I’ve appeared in.\n“Meet Our Grad Students” profile for the University of British Columbia link backup\n“Humans of Waterloo” graduate student highlight link backup\nK.D. Fryer Gold Medal Recipient interview, from the University of Waterloo Mathematics Department link backup\nCBC article on the University of Waterloo unveiling their elliptical pool table link backup"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Course notes, projects, and other write-ups.\nExpected Error and Residuals for Least Squares with Gaussian Matrices University of British Columbia MATH 555: High Dimensional Probability, final project. 13 April 2023.\nLow-rank Decompositions of Musical STFT Tensors University of British Columbia MATH 605D: Tensor Decompositions, final project. 15 December 2022.\nThe Water Bottle Resonator University of Waterloo SYDE 750: Acoustics, final project. 8 April 2021. slides code\nNyquist-Shannon Sampling Theorem and Whittaker-Shannon Interpolation University of Waterloo AMATH 731: Functional Analysis, final presentation. 9 December 2020."
   },
   {
     "objectID": "posts/news-title/index.html",
@@ -84,10 +112,10 @@
     "text": "About the news"
   },
   {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
+    "objectID": "publications.html",
+    "href": "publications.html",
     "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work"
+    "section": "",
+    "text": "Naomi Graham, Nicholas Richardson, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Con strained Tensor Factorization. Mathematical Geosciences, Feb. 2025.  PDF code web tool\nJoel Saylor, Nicholas Richardson, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. 2024. (in review).\n\nMichael L. Waite and Nicholas Richardson. Potential Vorticity Generation in Breaking Gravity Waves. Atmosphere, 14(5):881, 2023.  PDF\nNicholas Richardson, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. Communications on Applied Mathematics and Computation, 2023.  PDF\nLam Si Tung Ho, Nicholas Richardson, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. Sampling Theory, Signal Processing, and Data Analysis, 21(2):28, 2023. \nNicholas Richardson. A Sparse Random Feature Model for Signal Decomposition. UWSpace, 2022. (Master’s Thesis). link PDF"
   }
 ]

@@ -7,11 +7,26 @@ title-block-banner: false
 css: custom.css
 ---
 
+Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Con strained Tensor Factorization. *Mathematical Geosciences*, Feb. 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
+
+Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. 2024. (in review).
+
+<!-- Michael L Waite and **Nicholas Richardson**. Viscous and diffusive generation
+of potential vorticity in stratified turbulence. In *AGU Fall Meeting Abstracts*,
+volume 2023, pages NG41A–06, 2023. -->
+
+Michael L. Waite and **Nicholas Richardson**. Potential Vorticity Generation in Breaking Gravity Waves. *Atmosphere*, 14(5):881, 2023. [{{< ai doi >}}](https://doi.org/10.3390/atmos14050881) [PDF](files/publications/atmosphere-14-00881.pdf)
+
+**Nicholas Richardson**, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. *Communications on Applied Mathematics and Computation*, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s42967-023-00273-x) [PDF](files/publications/srmd2023.pdf)
+
+Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. *Sampling Theory, Signal Processing, and Data Analysis*, 21(2):28, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s43670-023-00067-5)
+
+**Nicholas Richardson**. A Sparse Random Feature Model for Signal Decomposition. *UWSpace*, 2022. (Master’s Thesis). [link](http://hdl.handle.net/10012/18262) [PDF](files/publications/Richardson_NicholasJosephEmile_masters_thesis.pdf)
 
 <!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
+<!-- {{< include /files/includes/_academic.qmd >}}
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-mypublications%2Fnjericha&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-mypublications%2Fnjericha&jsonp=1"></script> -->
 
 <!-- Notes: \* corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ESI [Highly Cited Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html) (top 1%); ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} ESI [Hot Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html) (top 0.1%)
 
@@ -20,7 +35,7 @@ Total citations as of January 2025:
 - [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)
 - [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377)  -->
 
-## Selected Work
+<!-- ## Selected Work -->
 
 <!-- Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>
 

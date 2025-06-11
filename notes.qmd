@@ -1,0 +1,17 @@
+---
+title: "Notes"
+description-meta: "Course notes, projects, and other write-ups"
+title-block-banner: false
+---
+
+Course notes, projects, and other write-ups.
+
+[Expected Error and Residuals for Least Squares with Gaussian Matrices](files/notes/Expected_Errors_and_Residuals_for_Least_Squares_with_Gaussian_Matrices.pdf) University of British Columbia MATH 555: High Dimensional Probability, final project. 13 April 2023.
+
+[Low-rank Decompositions of Musical STFT Tensors](files/notes/Low-rank%20Decompositions%20of%20Musical%20STFT%20Tensors.pdf) University of British Columbia MATH 605D: Tensor Decompositions, final project. 15 December 2022.
+
+[The Water Bottle Resonator](files/notes/water_bottle_resonator.pdf) University of Waterloo SYDE 750: Acoustics, final project. 8 April 2021. [slides](files/notes/water_bottle_resonator_slides.pptx) [code](https://colab.research.google.com/drive/1xGMEdj-Ml6gLR5_ZM8ijrZvaA71Y6uIJ?usp=sharing
+)
+
+[Nyquist-Shannon Sampling Theorem and Whittaker-Shannon Interpolation](files/notes/Nyquist_Shannon_Sampling_Theorem%20Presentation.pdf) University of Waterloo AMATH 731: Functional Analysis, final presentation.
+9 December 2020.
