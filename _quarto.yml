@@ -46,7 +46,7 @@ website:
       - text: Media
         href: media.qmd
       - text: Photography
-        href: njerichardson.weebly.com
+        href: https://njerichardson.weebly.com
 
     right:
       - text: CV

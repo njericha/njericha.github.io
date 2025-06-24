@@ -36,7 +36,7 @@ Runner up in annual poster competition
 at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC.
 [slides](files/presentations/11_apr_iam_retreat_2025.pdf)
 
-**04 Mar 2025**: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. [slides](files/presentations/04_mar_ml_reading_group_2025.html) [original paper](doi.org/10.1214/24-AOS2416)
+**04 Mar 2025**: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. [slides](files/presentations/04_mar_ml_reading_group_2025.html) [original paper](https://doi.org/10.1214/24-AOS2416)
 
 **18 Feb 2025**: Mathematics of Music: Connections from harmonics to tuning, Math Graduate Seminar, Vancouver BC. [notes](files/presentations/13_feb_mgs_2025.pdf)
 
