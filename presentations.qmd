@@ -6,6 +6,9 @@ title-block-banner: false
 
 ## Conferences
 
+**30 Jul 2025**: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor
+Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. [slides](files/presentations/30_jul_siam_2025.pdf)
+
 **14 Jul 2025**: Unsupervised Signal Demixing with Tensor Factorization,
 Vision and Learning Workshop at ICML 2025, Vancouver, BC.
 [poster](files/posters/14_jul_icml_2025.pdf)
