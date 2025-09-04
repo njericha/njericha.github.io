@@ -2,50 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://njericha.github.io/teaching.html</loc>
-    <lastmod>2025-06-10T22:31:48.141Z</lastmod>
+    <lastmod>2025-09-04T17:29:57.233Z</lastmod>
   </url>
   <url>
-    <loc>https://njericha.github.io/presentations.html</loc>
-    <lastmod>2025-08-13T19:02:26.002Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/posts/paper-title/index.html</loc>
-    <lastmod>2025-06-06T18:10:26.880Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/posts/event-title/index.html</loc>
-    <lastmod>2025-06-06T18:10:26.871Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/music.html</loc>
-    <lastmod>2025-06-10T23:31:29.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/index.html</loc>
-    <lastmod>2025-06-24T18:14:03.130Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/affiliations.html</loc>
-    <lastmod>2025-06-06T19:13:03.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/contact.html</loc>
-    <lastmod>2025-06-10T23:47:42.048Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/media.html</loc>
-    <lastmod>2025-06-10T22:29:45.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://njericha.github.io/notes.html</loc>
-    <lastmod>2025-06-10T22:23:17.282Z</lastmod>
+    <loc>https://njericha.github.io/publications.html</loc>
+    <lastmod>2025-09-04T17:24:15.138Z</lastmod>
   </url>
   <url>
     <loc>https://njericha.github.io/posts/news-title/index.html</loc>
     <lastmod>2025-06-06T18:10:26.871Z</lastmod>
   </url>
   <url>
-    <loc>https://njericha.github.io/publications.html</loc>
-    <lastmod>2025-06-11T01:20:55.467Z</lastmod>
+    <loc>https://njericha.github.io/notes.html</loc>
+    <lastmod>2025-09-04T17:22:37.805Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/media.html</loc>
+    <lastmod>2025-06-10T22:29:45.347Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/contact.html</loc>
+    <lastmod>2025-09-04T17:32:25.673Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/about.html</loc>
+    <lastmod>2025-09-04T17:34:02.848Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/affiliations.html</loc>
+    <lastmod>2025-09-04T17:32:40.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/index.html</loc>
+    <lastmod>2025-09-04T17:39:44.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/music.html</loc>
+    <lastmod>2025-06-10T23:31:29.509Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/posts/event-title/index.html</loc>
+    <lastmod>2025-06-06T18:10:26.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/posts/paper-title/index.html</loc>
+    <lastmod>2025-06-06T18:10:26.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/presentations.html</loc>
+    <lastmod>2025-09-04T17:22:27.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://njericha.github.io/research.html</loc>
+    <lastmod>2025-09-04T17:24:22.110Z</lastmod>
   </url>
 </urlset>

@@ -4,14 +4,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Calculus I (Fall 2023, Winter 2025)\n\n\n\n\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\n\n\nFall 2022 – Spring 2024"
+    "text": "Intro to Programming: Python (Fall 2025 – Winter 2026)\nCalculus I (Fall 2023, Winter 2025)\n\n\n\n\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\n\n\nFall 2022 – Spring 2024"
   },
   {
     "objectID": "teaching.html#university-of-british-columbia",
     "href": "teaching.html#university-of-british-columbia",
     "title": "Teaching",
     "section": "",
-    "text": "Calculus I (Fall 2023, Winter 2025)\n\n\n\n\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\n\n\nFall 2022 – Spring 2024"
+    "text": "Intro to Programming: Python (Fall 2025 – Winter 2026)\nCalculus I (Fall 2023, Winter 2025)\n\n\n\n\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\n\n\nFall 2022 – Spring 2024"
   },
   {
     "objectID": "teaching.html#university-of-waterloo",
@@ -21,81 +21,25 @@
     "text": "University of Waterloo\n\nTeaching Assistant\n\nMathematics of Music (Fall 2020, 2021)\nSpecial Topics in Mathematical Connections: Math & Music (Fall 2021)\nComplex Analysis (Winter 2020)\nCalculus 1 & 2 (Fall 2019, Winter 2018, 2020, 2021)"
   },
   {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Nicholas J. E. Richardson",
     "section": "",
-    "text": "30 Jul 2025: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. slides\n14 Jul 2025: Unsupervised Signal Demixing with Tensor Factorization, Vision and Learning Workshop at ICML 2025, Vancouver, BC. poster\n02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website"
+    "text": "Naomi Graham, Nicholas Richardson, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. Mathematical Geosciences, Feb. 2025.  PDF code web tool\n\nMichael L. Waite and Nicholas Richardson. Potential Vorticity Generation in Breaking Gravity Waves. Atmosphere, 14(5):881, 2023.  PDF\nNicholas Richardson, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. Communications on Applied Mathematics and Computation, 2023.  PDF\nLam Si Tung Ho, Nicholas Richardson, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. Sampling Theory, Signal Processing, and Data Analysis, 21(2):28, 2023. \nNicholas Richardson. A Sparse Random Feature Model for Signal Decomposition. UWSpace, 2022. (Master’s Thesis). link PDF"
   },
   {
-    "objectID": "presentations.html#conferences",
-    "href": "presentations.html#conferences",
-    "title": "Presentations",
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Nicholas J. E. Richardson",
     "section": "",
-    "text": "30 Jul 2025: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. slides\n14 Jul 2025: Unsupervised Signal Demixing with Tensor Factorization, Vision and Learning Workshop at ICML 2025, Vancouver, BC. poster\n02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website"
+    "text": "Naomi Graham, Nicholas Richardson, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. Mathematical Geosciences, Feb. 2025.  PDF code web tool\n\nMichael L. Waite and Nicholas Richardson. Potential Vorticity Generation in Breaking Gravity Waves. Atmosphere, 14(5):881, 2023.  PDF\nNicholas Richardson, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. Communications on Applied Mathematics and Computation, 2023.  PDF\nLam Si Tung Ho, Nicholas Richardson, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. Sampling Theory, Signal Processing, and Data Analysis, 21(2):28, 2023. \nNicholas Richardson. A Sparse Random Feature Model for Signal Decomposition. UWSpace, 2022. (Master’s Thesis). link PDF"
   },
   {
-    "objectID": "presentations.html#other-talks",
-    "href": "presentations.html#other-talks",
-    "title": "Presentations",
-    "section": "Other Talks",
-    "text": "Other Talks\n11 Apr 2025: Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides\n04 Mar 2025: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. slides original paper\n18 Feb 2025: Mathematics of Music: Connections from harmonics to tuning, Math Graduate Seminar, Vancouver BC. notes\n15 Apr 2024: Approximate Matrix Rank, 2024 Institute of Applied Math Retreat, Vancouver, BC. slides\n10 Oct 2023: Tensor Decompositions, Optimization & Applications, Math Graduate Seminar, Vancouver BC."
-  },
-  {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
-  },
-  {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "music.html",
-    "href": "music.html",
-    "title": "Music",
-    "section": "",
-    "text": "I post a cappella covers and electronic songs \nBaritone, arranger, and sound engineer for The Northwest Collective a cappella group at UBC      \nI sell a cappella arrangements! Here’s what’s available so far:\n\nGrown-Up Christmas List by Amy Grant (for TTBB voices)\n\nDownload my music resume."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicholas Richardson, PhD Candidate",
-    "section": "",
-    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nNicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master’s in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation.\n\n\n\nData tensor model from our paper Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization (2025)."
-  },
-  {
-    "objectID": "affiliations.html",
-    "href": "affiliations.html",
-    "title": "Affiliations",
-    "section": "",
-    "text": "Optimization Laboratory\nhttps://mpf-optimization-laboratory.github.io/opt-blog/\n\n\nMILD: Mathematics of Information, Learning and Data\nhttps://mild.ubc.ca/\n\n\nIAM: Institute of Applied Mathematics\nhttps://www.iam.ubc.ca/\n\n\nUniversity of British Columbia, Department of Mathematics\nhttps://www.math.ubc.ca\nPersonal Profile"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Feel free to get in touch with me through my UBC email!\nnjericha at math.ubc.ca\nRoom LSK 309\nInstitute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2"
-  },
-  {
-    "objectID": "media.html",
-    "href": "media.html",
-    "title": "Media",
-    "section": "",
-    "text": "Some articles, interviews, and other media I’ve appeared in.\n“Meet Our Grad Students” profile for the University of British Columbia link backup\n“Humans of Waterloo” graduate student highlight link backup\nK.D. Fryer Gold Medal Recipient interview, from the University of Waterloo Mathematics Department link backup\nCBC article on the University of Waterloo unveiling their elliptical pool table link backup"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Notes",
-    "section": "",
-    "text": "Course notes, projects, and other write-ups.\nExpected Error and Residuals for Least Squares with Gaussian Matrices University of British Columbia MATH 555: High Dimensional Probability, final project. 13 April 2023.\nLow-rank Decompositions of Musical STFT Tensors University of British Columbia MATH 605D: Tensor Decompositions, final project. 15 December 2022.\nThe Water Bottle Resonator University of Waterloo SYDE 750: Acoustics, final project. 8 April 2021. slides code\nNyquist-Shannon Sampling Theorem and Whittaker-Shannon Interpolation University of Waterloo AMATH 731: Functional Analysis, final presentation. 9 December 2020."
+    "objectID": "publications.html#in-progress",
+    "href": "publications.html#in-progress",
+    "title": "Nicholas J. E. Richardson",
+    "section": "In progress",
+    "text": "In progress\nJoel Saylor, Nicholas Richardson, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. (in review).\nNicholas Richardson, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. (in preparation)."
   },
   {
     "objectID": "posts/news-title/index.html",
@@ -112,10 +56,122 @@
     "text": "About the news"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
     "section": "",
-    "text": "Naomi Graham, Nicholas Richardson, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Con strained Tensor Factorization. Mathematical Geosciences, Feb. 2025.  PDF code web tool\nJoel Saylor, Nicholas Richardson, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. 2024. (in review).\n\nMichael L. Waite and Nicholas Richardson. Potential Vorticity Generation in Breaking Gravity Waves. Atmosphere, 14(5):881, 2023.  PDF\nNicholas Richardson, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. Communications on Applied Mathematics and Computation, 2023.  PDF\nLam Si Tung Ho, Nicholas Richardson, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. Sampling Theory, Signal Processing, and Data Analysis, 21(2):28, 2023. \nNicholas Richardson. A Sparse Random Feature Model for Signal Decomposition. UWSpace, 2022. (Master’s Thesis). link PDF"
+    "text": "Notes\nCourse notes, projects, and other write-ups.\nExpected Error and Residuals for Least Squares with Gaussian Matrices University of British Columbia MATH 555: High Dimensional Probability, final project. 13 April 2023.\nLow-rank Decompositions of Musical STFT Tensors University of British Columbia MATH 605D: Tensor Decompositions, final project. 15 December 2022.\nThe Water Bottle Resonator University of Waterloo SYDE 750: Acoustics, final project. 8 April 2021. slides code\nNyquist-Shannon Sampling Theorem and Whittaker-Shannon Interpolation University of Waterloo AMATH 731: Functional Analysis, final presentation. 9 December 2020."
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "Some articles, interviews, and other media I’ve appeared in.\n“Meet Our Grad Students” profile for the University of British Columbia link backup\n“Humans of Waterloo” graduate student highlight link backup\nK.D. Fryer Gold Medal Recipient interview, from the University of Waterloo Mathematics Department link backup\nCBC article on the University of Waterloo unveiling their elliptical pool table link backup"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nFeel free to get in touch with me through my UBC email!\nnjericha at math.ubc.ca\nRoom LSK 309\nInstitute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\nFeel free to get in touch with me through my UBC email!\nnjericha at math.ubc.ca\nRoom LSK 309\nInstitute of Applied Mathematics\n311-6356 Agricultural Road\nVancouver, BC Canada V6T 1Z2\n\n\n \n\n\n\nAffiliations\n\nOptimization Laboratory\nhttps://mpf-optimization-laboratory.github.io/opt-blog/\n\n\nMILD: Mathematics of Information, Learning and Data\nhttps://mild.ubc.ca/\n\n\nIAM: Institute of Applied Mathematics\nhttps://www.iam.ubc.ca/\n\n\nUniversity of British Columbia, Department of Mathematics\nhttps://www.math.ubc.ca\nPersonal Profile"
+  },
+  {
+    "objectID": "affiliations.html",
+    "href": "affiliations.html",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Affiliations\n\nOptimization Laboratory\nhttps://mpf-optimization-laboratory.github.io/opt-blog/\n\n\nMILD: Mathematics of Information, Learning and Data\nhttps://mild.ubc.ca/\n\n\nIAM: Institute of Applied Mathematics\nhttps://www.iam.ubc.ca/\n\n\nUniversity of British Columbia, Department of Mathematics\nhttps://www.math.ubc.ca\nPersonal Profile"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicholas Richardson, PhD Candidate",
+    "section": "",
+    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nHi! I’m a PhD student under the Institute of Applied Mathematics at the University of British Columbia. I received my Bachelor of Mathematics in 2020 and Master’s in Applied Mathematics in 2022 from the University of Waterloo. My main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation.\n\n\n\nData tensor model from our paper Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization (2025)."
+  },
+  {
+    "objectID": "music.html",
+    "href": "music.html",
+    "title": "Music",
+    "section": "",
+    "text": "I post a cappella covers and electronic songs \nBaritone, arranger, and sound engineer for The Northwest Collective a cappella group at UBC      \nI sell a cappella arrangements! Here’s what’s available so far:\n\nGrown-Up Christmas List by Amy Grant (for TTBB voices)\n\nDownload my music resume."
+  },
+  {
+    "objectID": "posts/paper-title/index.html#abstract",
+    "href": "posts/paper-title/index.html#abstract",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Abstract",
+    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+  },
+  {
+    "objectID": "posts/paper-title/index.html#links",
+    "href": "posts/paper-title/index.html#links",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Links",
+    "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "30 Jul 2025: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. slides\n14 Jul 2025: Unsupervised Signal Demixing with Tensor Factorization, Vision and Learning Workshop at ICML 2025, Vancouver, BC. poster\n02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website\n\n\n\n11 Apr 2025: Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides\n04 Mar 2025: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. slides original paper\n18 Feb 2025: Mathematics of Music: Connections from harmonics to tuning, Math Graduate Seminar, Vancouver BC. notes\n15 Apr 2024: Approximate Matrix Rank, 2024 Institute of Applied Math Retreat, Vancouver, BC. slides\n10 Oct 2023: Tensor Decompositions, Optimization & Applications, Math Graduate Seminar, Vancouver BC."
+  },
+  {
+    "objectID": "presentations.html#conferences",
+    "href": "presentations.html#conferences",
+    "title": "Presentations",
+    "section": "",
+    "text": "30 Jul 2025: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. slides\n14 Jul 2025: Unsupervised Signal Demixing with Tensor Factorization, Vision and Learning Workshop at ICML 2025, Vancouver, BC. poster\n02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website"
+  },
+  {
+    "objectID": "presentations.html#other-talks",
+    "href": "presentations.html#other-talks",
+    "title": "Presentations",
+    "section": "",
+    "text": "11 Apr 2025: Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides\n04 Mar 2025: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. slides original paper\n18 Feb 2025: Mathematics of Music: Connections from harmonics to tuning, Math Graduate Seminar, Vancouver BC. notes\n15 Apr 2024: Approximate Matrix Rank, 2024 Institute of Applied Math Retreat, Vancouver, BC. slides\n10 Oct 2023: Tensor Decompositions, Optimization & Applications, Math Graduate Seminar, Vancouver BC."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Naomi Graham, Nicholas Richardson, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. Mathematical Geosciences, Feb. 2025.  PDF code web tool\n\nMichael L. Waite and Nicholas Richardson. Potential Vorticity Generation in Breaking Gravity Waves. Atmosphere, 14(5):881, 2023.  PDF\nNicholas Richardson, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. Communications on Applied Mathematics and Computation, 2023.  PDF\nLam Si Tung Ho, Nicholas Richardson, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. Sampling Theory, Signal Processing, and Data Analysis, 21(2):28, 2023. \nNicholas Richardson. A Sparse Random Feature Model for Signal Decomposition. UWSpace, 2022. (Master’s Thesis). link PDF"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Naomi Graham, Nicholas Richardson, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. Mathematical Geosciences, Feb. 2025.  PDF code web tool\n\nMichael L. Waite and Nicholas Richardson. Potential Vorticity Generation in Breaking Gravity Waves. Atmosphere, 14(5):881, 2023.  PDF\nNicholas Richardson, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. Communications on Applied Mathematics and Computation, 2023.  PDF\nLam Si Tung Ho, Nicholas Richardson, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. Sampling Theory, Signal Processing, and Data Analysis, 21(2):28, 2023. \nNicholas Richardson. A Sparse Random Feature Model for Signal Decomposition. UWSpace, 2022. (Master’s Thesis). link PDF"
+  },
+  {
+    "objectID": "research.html#in-progress",
+    "href": "research.html#in-progress",
+    "title": "Research",
+    "section": "In progress",
+    "text": "In progress\nJoel Saylor, Nicholas Richardson, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. (in review).\nNicholas Richardson, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. (in preparation)."
+  },
+  {
+    "objectID": "research.html#conferences",
+    "href": "research.html#conferences",
+    "title": "Research",
+    "section": "Conferences",
+    "text": "Conferences\n30 Jul 2025: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. slides\n14 Jul 2025: Unsupervised Signal Demixing with Tensor Factorization, Vision and Learning Workshop at ICML 2025, Vancouver, BC. poster\n02 Dec 2024: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. slides\n20 Oct 2024: Density Separation with Tensor Factorization, 2024 INFORMS Annual Meeting, Seattle, WA. slides\n21 Sep 2024: Density Separation with Tensor Factorization, West Coast Optimization Meeting 2024, Vancouver, BC. slides\n08 Jul 2024: Density Separation with Tensor Factorization, 2024 SIAM Annual Meeting, Spokane, WA. slides\n14 Oct 2023: Non-negative Tensor Decompositions for Unsupervised Learning, 4th Biennial Meeting of SIAM Pacific Northwest Section, Bellingham, WA. slides\n01 Jul 2021: Sparse Random Wavelet Representation & Decomposition, Canadian Applied and Industrial Mathematics Society (CAIMS), Waterloo, ON. Runner up in annual poster competition poster slides website"
+  },
+  {
+    "objectID": "research.html#other-talks",
+    "href": "research.html#other-talks",
+    "title": "Research",
+    "section": "Other Talks",
+    "text": "Other Talks\n11 Apr 2025: Discretizing Constraints at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC. slides\n04 Mar 2025: Learning Gaussian Mixtures Using the Wasserstein-Fisher-Rao Gradient Flow, Machine Learning Reading Group, Vancouver, BC. slides original paper\n18 Feb 2025: Mathematics of Music: Connections from harmonics to tuning, Math Graduate Seminar, Vancouver BC. notes\n15 Apr 2024: Approximate Matrix Rank, 2024 Institute of Applied Math Retreat, Vancouver, BC. slides\n10 Oct 2023: Tensor Decompositions, Optimization & Applications, Math Graduate Seminar, Vancouver BC."
   }
 ]

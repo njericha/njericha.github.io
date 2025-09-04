@@ -1,10 +1,12 @@
 ---
-title: "Contact"
-description-meta: "Reach out to me with questions and comments"
-title-block-banner: false
+# title: "Contact"
+# description-meta: "Reach out to me with questions and comments"
+# title-block-banner: false
 ---
 
 <!-- <center> -->
+
+# Contact
 
 Feel free to get in touch with me through my UBC email!
 

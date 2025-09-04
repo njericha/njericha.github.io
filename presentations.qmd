@@ -1,8 +1,10 @@
 ---
-title: "Presentations"
-description-meta: "Conference slides and other presentations given"
-title-block-banner: false
+# title: "Presentations"
+# description-meta: "Conference slides and other presentations given"
+# title-block-banner: false
 ---
+
+# Presentations
 
 ## Conferences
 

@@ -65,7 +65,7 @@ about:
 
 :::{#hero-heading}
 
-Nicholas is a PhD student at the Institute of Applied Mathematics through the University of British Columbia. He received his Bachelor of Mathematics in 2020 and Master's in Applied Mathematics in 2022 from the University of Waterloo. His main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation.
+Hi! I'm a PhD student under the Institute of Applied Mathematics at the University of British Columbia. I received my Bachelor of Mathematics in 2020 and Master's in Applied Mathematics in 2022 from the University of Waterloo. My main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation.
 
 ![Data tensor model from our paper *Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization* (2025).](files/images/input_tensor_schematic.png){width="85%" fig-align="center"}
 

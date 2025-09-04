@@ -18,27 +18,29 @@ website:
 #      - text: Home
 #        href: index.qmd
       - text: About
-        menu:
-          # - text: News
-          #   href: posts.qmd#category=news
-          # - text: Events
-          #   href: posts.qmd#category=event
-          - text: Affiliations
-            href: affiliations.qmd
-          - text: Contact
-            href: contact.qmd
+        href: about.qmd
+        # menu:
+        #   # - text: News
+        #   #   href: posts.qmd#category=news
+        #   # - text: Events
+        #   #   href: posts.qmd#category=event
+        #   - text: Affiliations
+        #     href: affiliations.qmd
+        #   - text: Contact
+        #     href: contact.qmd
       - text: Research
-        menu:
-          - text: Publications
-            href: publications.qmd
-          # - text: Selected Papers
-          #   href: posts.qmd#category=paper
+        href: research.qmd
+        # menu:
+          # - text: Publications
+          #   href: publications.qmd
+          # # - text: Selected Papers
+          # #   href: posts.qmd#category=paper
+          # # - text: Presentations
+          # #   href: posts.qmd#category=presentation
           # - text: Presentations
-          #   href: posts.qmd#category=presentation
-          - text: Presentations
-            href: presentations.qmd
-          - text: Notes
-            href: notes.qmd
+          #   href: presentations.qmd
+          # - text: Notes
+          #   href: notes.qmd
       - text: Teaching
         href: teaching.qmd
       - text: Music

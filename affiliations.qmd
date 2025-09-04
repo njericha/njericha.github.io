@@ -1,8 +1,10 @@
 ---
-title: "Affiliations"
-description-meta: "Affiliated academic organizations"
-title-block-banner: false
+# title: "Affiliations"
+# description-meta: "Affiliated academic organizations"
+# title-block-banner: false
 ---
+
+# Affiliations
 
 ### Optimization Laboratory
 

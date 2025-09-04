@@ -1,34 +1,17 @@
 ---
-# title: "Publications"
-# description-meta: "Information, pdfs, and social metrics of papers"
-# #page-layout: full
-# #back-to-top-navigation: true
-# title-block-banner: false
-# css: custom.css
+title: "Research"
+description-meta: "Publications, presentations, and notes"
+#page-layout: full
+#back-to-top-navigation: true
+title-block-banner: false
+css: custom.css
 ---
 
-## Publications
+{{< include publications.qmd >}}
 
-Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. *Mathematical Geosciences*, Feb. 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
+{{< include presentations.qmd >}}
 
-
-<!-- Michael L Waite and **Nicholas Richardson**. Viscous and diffusive generation
-of potential vorticity in stratified turbulence. In *AGU Fall Meeting Abstracts*,
-volume 2023, pages NG41A–06, 2023. -->
-
-Michael L. Waite and **Nicholas Richardson**. Potential Vorticity Generation in Breaking Gravity Waves. *Atmosphere*, 14(5):881, 2023. [{{< ai doi >}}](https://doi.org/10.3390/atmos14050881) [PDF](files/publications/atmosphere-14-00881.pdf)
-
-**Nicholas Richardson**, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. *Communications on Applied Mathematics and Computation*, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s42967-023-00273-x) [PDF](files/publications/srmd2023.pdf)
-
-Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. *Sampling Theory, Signal Processing, and Data Analysis*, 21(2):28, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s43670-023-00067-5)
-
-**Nicholas Richardson**. A Sparse Random Feature Model for Signal Decomposition. *UWSpace*, 2022. (Master’s Thesis). [link](http://hdl.handle.net/10012/18262) [PDF](files/publications/Richardson_NicholasJosephEmile_masters_thesis.pdf)
-
-## In progress
-
-Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. (in review).
-
-**Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. (in preparation).
+{{< include notes.qmd >}}
 
 <!--Include academic icons or buttons-->
 <!-- {{< include /files/includes/_academic.qmd >}}

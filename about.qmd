@@ -1,0 +1,9 @@
+---
+# title: "About"
+description-meta: "Contact and Affiliations"
+title-block-banner: false
+---
+
+{{< include contact.qmd >}}
+
+{{< include affiliations.qmd >}}

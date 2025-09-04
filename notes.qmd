@@ -1,8 +1,11 @@
 ---
-title: "Notes"
-description-meta: "Course notes, projects, and other write-ups"
-title-block-banner: false
+# title: "Notes"
+# description-meta: "Course notes, projects, and other write-ups"
+# title-block-banner: false
+# css: custom.css
 ---
+
+# Notes
 
 Course notes, projects, and other write-ups.
 
