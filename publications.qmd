@@ -9,7 +9,9 @@
 
 ## Publications
 
-Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. *Mathematical Geosciences*, Feb. 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
+Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. *Journal of Geophysical Research: Earth Surface* (Accepted September 2025).
+
+Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. *Mathematical Geosciences*, 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
 
 
 <!-- Michael L Waite and **Nicholas Richardson**. Viscous and diffusive generation
@@ -24,11 +26,9 @@ Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso ne
 
 **Nicholas Richardson**. A Sparse Random Feature Model for Signal Decomposition. *UWSpace*, 2022. (Master’s Thesis). [link](http://hdl.handle.net/10012/18262) [PDF](files/publications/Richardson_NicholasJosephEmile_masters_thesis.pdf)
 
-## In progress
+## In Preparation
 
-Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. (in review).
-
-**Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. (in preparation).
+**Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions.
 
 <!--Include academic icons or buttons-->
 <!-- {{< include /files/includes/_academic.qmd >}}

@@ -7,11 +7,31 @@ title-block-banner: false
 css: custom.css
 ---
 
+[Curriculum Vitae](files/Nicholas_Richardson_CV.pdf)
+
+<!--
+```{=html}
+<object data="docs/files/Nicholas_Richardson_Music_CV.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="docs/files/Nicholas_Richardson_Music_CV.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+``` -->
+
 {{< include publications.qmd >}}
 
 {{< include presentations.qmd >}}
 
 {{< include notes.qmd >}}
+
+
+
+
+
+
+
+
+
 
 <!--Include academic icons or buttons-->
 <!-- {{< include /files/includes/_academic.qmd >}}
