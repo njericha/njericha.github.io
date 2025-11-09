@@ -9,9 +9,9 @@
 
 ## Publications
 
-Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. *Journal of Geophysical Research: Earth Surface* (Accepted September 2025).
+Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. *Journal of Geophysical Research: Earth Surface*, 130, e2025JF008406, 2025. [{{< ai doi >}}](https://doi.org/10.1029/2025JF008406) [PDF](files/publications/JGR-Earth-Surface-2025-Saylor-Tracking.pdf)
 
-Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. *Mathematical Geosciences*, 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
+Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. *Mathematical Geosciences*, 57, 601–628, 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
 
 
 <!-- Michael L Waite and **Nicholas Richardson**. Viscous and diffusive generation
@@ -20,7 +20,7 @@ volume 2023, pages NG41A–06, 2023. -->
 
 Michael L. Waite and **Nicholas Richardson**. Potential Vorticity Generation in Breaking Gravity Waves. *Atmosphere*, 14(5):881, 2023. [{{< ai doi >}}](https://doi.org/10.3390/atmos14050881) [PDF](files/publications/atmosphere-14-00881.pdf)
 
-**Nicholas Richardson**, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. *Communications on Applied Mathematics and Computation*, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s42967-023-00273-x) [PDF](files/publications/srmd2023.pdf)
+**Nicholas Richardson**, Hayden Schaeffer, and Giang Tran. SRMD: Sparse Random Mode Decomposition. *Communications on Applied Mathematics and Computation*, 6, 879–906, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s42967-023-00273-x) [PDF](files/publications/srmd2023.pdf)
 
 Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso neural network models for functions of few variables and time-dependent data. *Sampling Theory, Signal Processing, and Data Analysis*, 21(2):28, 2023. [{{< ai doi >}}](http://doi.org/10.1007/s43670-023-00067-5)
 
