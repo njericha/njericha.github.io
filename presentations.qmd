@@ -6,7 +6,9 @@
 
 # Presentations
 
-## Conferences
+## Conferences, Seminars, and Workshops
+
+**10 Dec 2025**: Tucker-1 Demixing Model: Under the Hood, Geology Industry Training with Teck and BHP, Vancouver, BC. [slides](files/presentations/10_dec_geo_training_2025.pdf)
 
 **30 Jul 2025**: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor
 Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. [slides](files/presentations/30_jul_siam_2025.pdf)

@@ -17,6 +17,57 @@ css: custom.css
     download the PDF file.</a></p>
 </object>
 ``` -->
+## Projects
+
+::: {.grid style="place-items: center;row-gap: 0"}
+
+::: {.g-col-8}
+**Multiscale Optimization**:
+Optimize over continuous functions at gradually finer discretizations with [greedy multiscale](files/publications/multiscale-paper-and-supplement.pdf)
+:::
+
+::: {.g-col-4}
+![](files/images/multiscale-starting-iterates.svg)
+:::
+
+::: {.g-col-4}
+![](files/images/input_tensor_schematic.png)
+:::
+
+::: {.g-col-8}
+**Tensor Factorization**:
+Input [geological data tensor](http://doi.org/10.1007/s11004-024-10175-0) processed with [BlockTensorFactorization.jl](https://mpf-optimization-laboratory.github.io/BlockTensorFactorization.jl/dev/), a Julia package for constrained tensor factorization
+:::
+
+::: {.g-col-8}
+**Rank Recovery**:
+Estimate rank of a noisy low-rank matrix with [Numerical Epsilon-Rank](https://mpf-optimization-laboratory.github.io/opt-blog/posts/epsilon-rank/)
+:::
+
+::: {.g-col-4}
+![](files/images/numerical_rank_plot.png)
+:::
+
+::: {.g-col-4}
+![](files/images/rescaling_vs_projection_tensor_test.svg)
+:::
+
+::: {.g-col-8}
+**Constrained Optimization**:
+Comparison of nonnegative
+and sum-to-one [constraint enforcing operations](https://mpf-optimization-laboratory.github.io/BlockTensorFactorization.jl/dev/tutorial/constraints/) from slowest (Euclidean Simplex Projection) to fastest (KL-Projection and renormalization) applied to a [matrix factorization problem](https://github.com/MPF-Optimization-Laboratory/BlockTensorFactorization.jl/blob/e4424e219bc960a2ccf481d612560b7043c87df7/example/columnSimplexNMF.jl)
+:::
+
+::: {.g-col-8}
+**Signal Decomposition**:
+Separation of two frequency and amplitude modulated signals using [SRMD: Sparse Random Mode Decomposition](http://doi.org/10.1007/s42967-023-00273-x)
+:::
+
+::: {.g-col-4}
+![](files/images/ex_intersecting_Ours_clusters.png)
+:::
+
+:::
 
 {{< include publications.qmd >}}
 

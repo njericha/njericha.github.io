@@ -100,10 +100,12 @@ https://badge.dimensions.ai/
 <link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="Research – Nicholas J. E. Richardson">
 <meta property="og:description" content="Academic Website for Nicholas J. E. Richardson">
+<meta property="og:image" content="https://njericha.github.io/files/images/multiscale-starting-iterates.svg">
 <meta property="og:site_name" content="Nicholas J. E. Richardson">
 <meta name="twitter:title" content="Research – Nicholas J. E. Richardson">
 <meta name="twitter:description" content="Academic Website for Nicholas J. E. Richardson">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://njericha.github.io/files/images/multiscale-starting-iterates.svg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -173,11 +175,12 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   <li><a href="#in-preparation" id="toc-in-preparation" class="nav-link" data-scroll-target="#in-preparation">In Preparation</a></li>
   <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a>
   <ul class="collapse">
-  <li><a href="#conferences" id="toc-conferences" class="nav-link" data-scroll-target="#conferences">Conferences</a></li>
+  <li><a href="#conferences-seminars-and-workshops" id="toc-conferences-seminars-and-workshops" class="nav-link" data-scroll-target="#conferences-seminars-and-workshops">Conferences, Seminars, and Workshops</a></li>
   <li><a href="#other-talks" id="toc-other-talks" class="nav-link" data-scroll-target="#other-talks">Other Talks</a></li>
   </ul></li>
   <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
@@ -214,6 +217,41 @@ https://badge.dimensions.ai/
     download the PDF file.</a></p>
 </object>
 ``` -->
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<div class="grid" style="place-items: center;row-gap: 0">
+<div class="g-col-8">
+<p><strong>Multiscale Optimization</strong>: Optimize over continuous functions at gradually finer discretizations with <a href="files/publications/multiscale-paper-and-supplement.pdf">greedy multiscale</a></p>
+</div>
+<div class="g-col-4">
+<p><img src="files/images/multiscale-starting-iterates.svg" class="img-fluid"></p>
+</div>
+<div class="g-col-4">
+<p><img src="files/images/input_tensor_schematic.png" class="img-fluid"></p>
+</div>
+<div class="g-col-8">
+<p><strong>Tensor Factorization</strong>: Input <a href="http://doi.org/10.1007/s11004-024-10175-0">geological data tensor</a> processed with <a href="https://mpf-optimization-laboratory.github.io/BlockTensorFactorization.jl/dev/">BlockTensorFactorization.jl</a>, a Julia package for constrained tensor factorization</p>
+</div>
+<div class="g-col-8">
+<p><strong>Rank Recovery</strong>: Estimate rank of a noisy low-rank matrix with <a href="https://mpf-optimization-laboratory.github.io/opt-blog/posts/epsilon-rank/">Numerical Epsilon-Rank</a></p>
+</div>
+<div class="g-col-4">
+<p><img src="files/images/numerical_rank_plot.png" class="img-fluid"></p>
+</div>
+<div class="g-col-4">
+<p><img src="files/images/rescaling_vs_projection_tensor_test.svg" class="img-fluid"></p>
+</div>
+<div class="g-col-8">
+<p><strong>Constrained Optimization</strong>: Comparison of nonnegative and sum-to-one <a href="https://mpf-optimization-laboratory.github.io/BlockTensorFactorization.jl/dev/tutorial/constraints/">constraint enforcing operations</a> from slowest (Euclidean Simplex Projection) to fastest (KL-Projection and renormalization) applied to a <a href="https://github.com/MPF-Optimization-Laboratory/BlockTensorFactorization.jl/blob/e4424e219bc960a2ccf481d612560b7043c87df7/example/columnSimplexNMF.jl">matrix factorization problem</a></p>
+</div>
+<div class="g-col-8">
+<p><strong>Signal Decomposition</strong>: Separation of two frequency and amplitude modulated signals using <a href="http://doi.org/10.1007/s42967-023-00273-x">SRMD: Sparse Random Mode Decomposition</a></p>
+</div>
+<div class="g-col-4">
+<p><img src="files/images/ex_intersecting_Ours_clusters.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <p>Joel Saylor, <strong>Nicholas Richardson</strong>, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. <em>Journal of Geophysical Research: Earth Surface</em>, 130, e2025JF008406, 2025. <a href="https://doi.org/10.1029/2025JF008406"><i class="ai  ai-doi"></i></a> <a href="files/publications/JGR-Earth-Surface-2025-Saylor-Tracking.pdf">PDF</a></p>
@@ -228,7 +266,7 @@ volume 2023, pages NG41A–06, 2023. -->
 </section>
 <section id="in-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="in-preparation">In Preparation</h2>
-<p><strong>Nicholas Richardson</strong>, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions.</p>
+<p><strong>Nicholas Richardson</strong>, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. <a href="files/publications/multiscale-paper-and-supplement.pdf">PDF</a></p>
 <!--Include academic icons or buttons-->
 <!-- {{< include /files/includes/_academic.qmd >}}
 
@@ -251,8 +289,9 @@ Einstein, A. (1965). Concerning an heuristic point of view toward the emission a
 </section>
 <section id="presentations" class="level1">
 <h1>Presentations</h1>
-<section id="conferences" class="level2">
-<h2 class="anchored" data-anchor-id="conferences">Conferences</h2>
+<section id="conferences-seminars-and-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="conferences-seminars-and-workshops">Conferences, Seminars, and Workshops</h2>
+<p><strong>10 Dec 2025</strong>: Tucker-1 Demixing Model: Under the Hood, Geology Industry Training with Teck and BHP, Vancouver, BC. <a href="files/presentations/10_dec_geo_training_2025.pdf">slides</a></p>
 <p><strong>30 Jul 2025</strong>: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor Factorization, Joint SIAM/CAIMS Annual Meetings 2025, Montréal, QC. <a href="files/presentations/30_jul_siam_2025.pdf">slides</a></p>
 <p><strong>14 Jul 2025</strong>: Unsupervised Signal Demixing with Tensor Factorization, Vision and Learning Workshop at ICML 2025, Vancouver, BC. <a href="files/posters/14_jul_icml_2025.pdf">poster</a></p>
 <p><strong>02 Dec 2024</strong>: Density Separation with Tensor Factorization, 2024 CMS Winter Meeting, Richmond, BC. <a href="files/presentations/02_dec_cms_2024.pdf">slides</a></p>

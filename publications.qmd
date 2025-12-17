@@ -28,7 +28,7 @@ Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso ne
 
 ## In Preparation
 
-**Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions.
+**Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. [PDF](files/publications/multiscale-paper-and-supplement.pdf)
 
 <!--Include academic icons or buttons-->
 <!-- {{< include /files/includes/_academic.qmd >}}
