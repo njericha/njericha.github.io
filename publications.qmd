@@ -7,7 +7,7 @@
 # css: custom.css
 ---
 
-## Publications
+# Publications
 
 Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. *Journal of Geophysical Research: Earth Surface*, 130, e2025JF008406, 2025. [{{< ai doi >}}](https://doi.org/10.1029/2025JF008406) [PDF](files/publications/JGR-Earth-Surface-2025-Saylor-Tracking.pdf)
 

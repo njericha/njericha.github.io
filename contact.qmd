@@ -10,14 +10,10 @@
 
 Feel free to get in touch with me through my UBC email!
 
-njericha at math.ubc.ca
-
-Room LSK 309
-
-Institute of Applied Mathematics
-
-311-6356 Agricultural Road
-
+njericha at math.ubc.ca\
+Room LSK 309\
+Institute of Applied Mathematics\
+311-6356 Agricultural Road\
 Vancouver, BC Canada V6T 1Z2
 
 {{< include /files/includes/_socialshare.qmd >}}

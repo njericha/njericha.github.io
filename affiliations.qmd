@@ -6,20 +6,10 @@
 
 # Affiliations
 
-### Optimization Laboratory
+Optimization Laboratory | <https://mpf-optimization-laboratory.github.io/opt-blog/>
 
-<https://mpf-optimization-laboratory.github.io/opt-blog/>
+MILD: Mathematics of Information, Learning and Data | <https://mild.ubc.ca/>
 
-### MILD: Mathematics of Information, Learning and Data
+IAM: Institute of Applied Mathematics | <https://www.iam.ubc.ca/>
 
-<https://mild.ubc.ca/>
-
-### IAM: Institute of Applied Mathematics
-
-<https://www.iam.ubc.ca/>
-
-### University of British Columbia, Department of Mathematics
-
-<https://www.math.ubc.ca>
-
-[Personal Profile](https://www.math.ubc.ca/user/3599)
+University of British Columbia, Department of Mathematics | <https://www.math.ubc.ca> | [Personal Profile](https://www.math.ubc.ca/user/3599)

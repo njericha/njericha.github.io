@@ -69,14 +69,15 @@ Separation of two frequency and amplitude modulated signals using [SRMD: Sparse 
 
 :::
 
+# Student Supervision
+
+Sep. 2024 – Jan. 2025 | **Noah Marusenko** | Undergrad Student Research Project, University of British Columbia [*Multiple Scale Methods for Tensor Factorizations.*](https://github.com/MPF-Optimization-Laboratory/MatrixTensorFactor.jl/blob/29844f7b93f493d10d4a0784527f2b7018827874/MultiFactorizeTutorial.ipynb).
+
 {{< include publications.qmd >}}
 
 {{< include presentations.qmd >}}
 
 {{< include notes.qmd >}}
-
-
-
 
 
 
