@@ -23,7 +23,7 @@ css: custom.css
 
 ::: {.g-col-8}
 **Multiscale Optimization**:
-Optimize over continuous functions at gradually finer discretizations with [greedy multiscale](files/publications/multiscale-paper-and-supplement.pdf)
+Optimize over continuous functions at gradually finer discretizations with [greedy multiscale](https://arxiv.org/abs/2512.13993)
 :::
 
 ::: {.g-col-4}
