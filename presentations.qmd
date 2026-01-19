@@ -8,6 +8,8 @@
 
 ## Conferences, Seminars, and Workshops
 
+**20 Jan 2026**: Optimization and Applications of Unsupervised Signal Demixing, SFU Operations Research Seminar, Burnaby, BC. [slides](files/presentations/20_jan_sfu.pdf)
+
 **10 Dec 2025**: Tucker-1 Demixing Model: Under the Hood, Geology Industry Training with Teck and BHP, Vancouver, BC. [slides](files/presentations/10_dec_geo_training_2025.pdf)
 
 **30 Jul 2025**: BlockTensorDecomposition.jl: An Optimization Framework for Constrained Tensor
