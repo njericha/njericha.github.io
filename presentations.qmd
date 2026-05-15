@@ -8,7 +8,9 @@
 
 ## Conferences, Seminars, and Workshops
 
-**20 Jan 2026**: Optimization and Applications of Unsupervised Signal Demixing, SFU Operations Research Seminar, Burnaby, BC. [slides](files/presentations/20_jan_sfu.pdf)
+**05 Jun 2026**: Optimization of Discretized Continuous Functions, SIAM OP26, Edinburgh, Scotland, United Kingdom. [slides](files/presentations/05_jun_siam_op_2026.pdf)
+
+**20 Jan 2026**: Optimization and Applications of Unsupervised Signal Demixing, SFU Operations Research Seminar, Burnaby, BC. [slides](files/presentations/20_jan_sfu_2026.pdf)
 
 **10 Dec 2025**: Tucker-1 Demixing Model: Under the Hood, Geology Industry Training with Teck and BHP, Vancouver, BC. [slides](files/presentations/10_dec_geo_training_2025.pdf)
 
@@ -44,6 +46,10 @@ Runner up in annual poster competition
 [poster](files/posters/21_jun_caims_2021.pdf) [slides](files/presentations/01_jul_caims_2021.pdf) [website](https://uwaterloo.ca/canadian-applied-industrial-math-society-annual-meeting-2021/)
 
 ## Other Talks
+
+**13 Apr 2026**: Signal Demixing with
+Tensor Factorization, 2026 Institute of Applied Math Retreat, Vancouver, BC.
+[slides](files/presentations/13_apr_iam_retreat_2026.pdf)
 
 **11 Apr 2025**: Discretizing Constraints
 at Multiple Scales, 2025 Institute of Applied Math Retreat, Vancouver, BC.

@@ -71,7 +71,11 @@ Separation of two frequency and amplitude modulated signals using [SRMD: Sparse 
 
 # Student Supervision
 
-Sep. 2024 – Jan. 2025 | **Noah Marusenko** | Undergrad Student Research Project, University of British Columbia [*Multiple Scale Methods for Tensor Factorizations.*](https://github.com/MPF-Optimization-Laboratory/MatrixTensorFactor.jl/blob/29844f7b93f493d10d4a0784527f2b7018827874/MultiFactorizeTutorial.ipynb).
+May – Aug. 2026 | **Michael Yang** | Incoming Master's Student Summer Project, University of British Columbia [*Moment Matching for Density Estimation*](https://github.com/MPF-Optimization-Laboratory/density-from-moments).
+
+May – Aug. 2026 | **Mehdi Naami** | Undergrad Student Research Project, University of British Columbia [*Block Descent and Factorization with Automatic Differentiation*](https://github.com/MPF-Optimization-Laboratory/BlockTensorFactorization.jl).
+
+Sep. 2024 – Jan. 2025 | **Noah Marusenko** | Undergrad Student Research Project, University of British Columbia [*Multiple Scale Methods for Tensor Factorizations*](https://github.com/MPF-Optimization-Laboratory/MatrixTensorFactor.jl/blob/29844f7b93f493d10d4a0784527f2b7018827874/MultiFactorizeTutorial.ipynb).
 
 {{< include publications.qmd >}}
 
