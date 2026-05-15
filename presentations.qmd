@@ -8,7 +8,7 @@
 
 ## Conferences, Seminars, and Workshops
 
-**05 Jun 2026**: Optimization of Discretized Continuous Functions, SIAM OP26, Edinburgh, Scotland, United Kingdom. [slides](files/presentations/05_jun_siam_op_2026.pdf)
+**05 Jun 2026**: Multiscale Methods for Optimization of Discretized Continuous Functions, SIAM OP26, Edinburgh, Scotland, United Kingdom. [slides](files/presentations/05_jun_siam_op_2026.pdf)
 
 **20 Jan 2026**: Optimization and Applications of Unsupervised Signal Demixing, SFU Operations Research Seminar, Burnaby, BC. [slides](files/presentations/20_jan_sfu_2026.pdf)
 

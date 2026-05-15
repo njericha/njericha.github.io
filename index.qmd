@@ -75,7 +75,7 @@ Research interests include:
 - tensor factorization
 - optimization
 
-![Data tensor model from our paper *Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization* (2025).](files/images/input_tensor_schematic.png){width="85%" fig-align="center"}
+![Data tensor model from our paper *Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization* (2025).](files/images/geology_input_tensor.svg){width="85%" fig-align="center"}
 
 <!-- My main research interests include image & signal processing, musical applications, unsupervised machine learning, tensor factorization, and optimisation.  -->
 

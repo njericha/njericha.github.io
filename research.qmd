@@ -23,7 +23,7 @@ css: custom.css
 
 ::: {.g-col-8}
 **Multiscale Optimization**:
-Optimize over continuous functions at gradually finer discretizations with [greedy multiscale](https://arxiv.org/abs/2512.13993)
+[Optimize over continuous functions](files/presentations/05_jun_siam_op_2026.pdf) at gradually finer discretizations with [greedy multiscale](https://arxiv.org/abs/2512.13993)
 :::
 
 ::: {.g-col-4}
@@ -31,7 +31,7 @@ Optimize over continuous functions at gradually finer discretizations with [gree
 :::
 
 ::: {.g-col-4}
-![](files/images/input_tensor_schematic.png)
+![](files/images/geology_input_tensor.svg)
 :::
 
 ::: {.g-col-8}
