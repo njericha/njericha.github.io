@@ -28,6 +28,8 @@ Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso ne
 
 ## In Preparation
 
+**Nicholas Richardson**. Computational Techniques for Analysis of Mixed Signals. *cIRcle*, 2026. (PhD Thesis). [slides](files/presentations/2026_07_23_phd_defence.pdf)
+
 **Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. [{{< ai arxiv >}}](https://arxiv.org/abs/2512.13993) [PDF](files/publications/multiscale-paper-and-supplement.pdf)
 
 <!--Include academic icons or buttons-->
