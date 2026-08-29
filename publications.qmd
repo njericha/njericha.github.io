@@ -9,6 +9,8 @@
 
 # Publications
 
+**Nicholas Richardson**. Computational Techniques for Analysis of Mixed Signals. *cIRcle*, 2026. (PhD Thesis). [{{< ai doi >}}](https://dx.doi.org/10.14288/1.0455277) [slides](files/presentations/2026_07_23_phd_defence.pdf)
+
 Joel Saylor, **Nicholas Richardson**, Naomi Graham, Robert Lee, and Michael P. Friedlander. Tracking cu-fertile sediment sources via multivariate petrochronological mixture modelling of detrital zircons. *Journal of Geophysical Research: Earth Surface*, 130, e2025JF008406, 2025. [{{< ai doi >}}](https://doi.org/10.1029/2025JF008406) [PDF](files/publications/JGR-Earth-Surface-2025-Saylor-Tracking.pdf)
 
 Naomi Graham, **Nicholas Richardson**, Michael P. Friedlander, and Joel Saylor. Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization. *Mathematical Geosciences*, 57, 601–628, 2025. [{{< ai doi >}}](http://doi.org/10.1007/s11004-024-10175-0) [PDF](files/publications/v2SubmittedMathGeo.pdf) [code](https://github.com/njericha/SedimentSourceAnalysis.jl) [web tool](https://dzgrainalyzer.eoas.ubc.ca/)
@@ -27,8 +29,6 @@ Lam Si Tung Ho, **Nicholas Richardson**, and Giang Tran. Adaptive group Lasso ne
 **Nicholas Richardson**. A Sparse Random Feature Model for Signal Decomposition. *UWSpace*, 2022. (Master’s Thesis). [link](http://hdl.handle.net/10012/18262) [PDF](files/publications/Richardson_NicholasJosephEmile_masters_thesis.pdf)
 
 ## In Preparation
-
-**Nicholas Richardson**. Computational Techniques for Analysis of Mixed Signals. *cIRcle*, 2026. (PhD Thesis). [slides](files/presentations/2026_07_23_phd_defence.pdf)
 
 **Nicholas Richardson**, Noah Marusenko, and Michael P. Friedlander. Multiple Scale Methods for Optimization of Discretized Continuous Functions. [{{< ai arxiv >}}](https://arxiv.org/abs/2512.13993) [PDF](files/publications/multiscale-paper-and-supplement.pdf)
 

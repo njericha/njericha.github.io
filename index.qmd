@@ -14,7 +14,7 @@ about:
   links:
     - icon: envelope
       text: E-mail
-      href: mailto:njericha@math.ubc.ca
+      href: mailto:richan6@mcmaster.ca
     - icon: linkedin
       text: LinkedIn
       href: http://linkedin.com/in/nicholas-je-richardson/
@@ -65,10 +65,11 @@ about:
 
 :::{#hero-heading}
 
-Hi! I'm a PhD Candidate at the Institute of Applied Mathematics located at the University of British Columbia. I received my Bachelor of Mathematics in 2020 majoring in Mathematical Physics, and Master's in Applied Mathematics in 2022 from the University of Waterloo. I am broadly interested in the tools and methods for automatically discovering patterns in data, and how we can accomplish this efficiently.
+Hi! I'm a Postdoc at McMaster's Math & Stats department studying statistical clustering. I received my Bachelor of Mathematics in Mathematical Physics and Master's in Applied Mathematics from the University of Waterloo in 2020 and 2022 respectively. I completed my PhD in Mathematics at the Institute of Applied Mathematics located in the University of British Columbia in 2026. I am broadly interested in the tools and methods for automatically discovering patterns in data, and how we can accomplish this efficiently.
 
 Research interests include:
 
+- clustering
 - image & signal processing
 - musical applications
 - unsupervised machine learning
