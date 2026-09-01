@@ -6,6 +6,10 @@
 
 # Affiliations
 
+Mathematics & Statistics Department | <https://math.mcmaster.ca/>
+
+## Former
+
 Optimization Laboratory | <https://mpf-optimization-laboratory.github.io/opt-blog/>
 
 MILD: Mathematics of Information, Learning and Data | <https://mild.ubc.ca/>

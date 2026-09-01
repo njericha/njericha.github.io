@@ -4,6 +4,12 @@ title: "Teaching"
 title-block-banner: false
 ---
 
+## McMaster University
+
+### Instructor
+
+- Applied Regression Analysis with SAS (Fall 2026)
+
 ## University of British Columbia
 
 ### Instructor

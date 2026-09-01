@@ -4,14 +4,21 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Intro to Computing: Python (Fall 2025 – Winter 2026)\n\nsample lesson\n\nCalculus I (Fall 2023, Winter 2025)\n\n\n\n\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\n\n\nFall 2022 – Spring 2024"
+    "text": "Applied Regression Analysis with SAS (Fall 2026)"
+  },
+  {
+    "objectID": "teaching.html#mcmaster-university",
+    "href": "teaching.html#mcmaster-university",
+    "title": "Teaching",
+    "section": "",
+    "text": "Applied Regression Analysis with SAS (Fall 2026)"
   },
   {
     "objectID": "teaching.html#university-of-british-columbia",
     "href": "teaching.html#university-of-british-columbia",
     "title": "Teaching",
-    "section": "",
-    "text": "Intro to Computing: Python (Fall 2025 – Winter 2026)\n\nsample lesson\n\nCalculus I (Fall 2023, Winter 2025)\n\n\n\n\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\n\n\nFall 2022 – Spring 2024"
+    "section": "University of British Columbia",
+    "text": "University of British Columbia\n\nInstructor\n\nIntro to Computing: Python (Fall 2025 – Winter 2026)\n\nsample lesson\n\nCalculus I (Fall 2023, Winter 2025)\n\n\n\nTeaching Assistant\n\nCalculus I (Fall 2024)\nCalculus II (Winter 2023)\nCalculus III (Fall 2022)\n\n\n\nMathematics Learning Centre Tutor\n\nFall 2022 – Spring 2024"
   },
   {
     "objectID": "teaching.html#university-of-waterloo",
@@ -53,21 +60,35 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\nFeel free to get in touch with me through my McMaster email!\nrichan6 at mcmaster.ca\nHamilton Hall, Room 218\nMcMaster University\n1280 Main Street West\nHamilton, ON Canada L8S 4K1"
+    "text": "Contact\nFeel free to get in touch with me through my McMaster email!\nrichan6 at mcmaster.ca\nHamilton Hall, Room 103E\nMcMaster University\n1280 Main Street West\nHamilton, ON Canada L8S 4K1"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\nFeel free to get in touch with me through my McMaster email!\nrichan6 at mcmaster.ca\nHamilton Hall, Room 218\nMcMaster University\n1280 Main Street West\nHamilton, ON Canada L8S 4K1\n\n\n \n\n\n\nAffiliations\nOptimization Laboratory | https://mpf-optimization-laboratory.github.io/opt-blog/\nMILD: Mathematics of Information, Learning and Data | https://mild.ubc.ca/\nIAM: Institute of Applied Mathematics | https://www.iam.ubc.ca/\nUniversity of British Columbia, Department of Mathematics | https://www.math.ubc.ca | Personal Profile"
+    "text": "Feel free to get in touch with me through my McMaster email!\nrichan6 at mcmaster.ca\nHamilton Hall, Room 103E\nMcMaster University\n1280 Main Street West\nHamilton, ON Canada L8S 4K1"
+  },
+  {
+    "objectID": "about.html#former",
+    "href": "about.html#former",
+    "title": "Contact",
+    "section": "Former",
+    "text": "Former\nOptimization Laboratory | https://mpf-optimization-laboratory.github.io/opt-blog/\nMILD: Mathematics of Information, Learning and Data | https://mild.ubc.ca/\nIAM: Institute of Applied Mathematics | https://www.iam.ubc.ca/\nUniversity of British Columbia, Department of Mathematics | https://www.math.ubc.ca | Personal Profile"
   },
   {
     "objectID": "affiliations.html",
     "href": "affiliations.html",
     "title": "Affiliations",
     "section": "",
-    "text": "Affiliations\nOptimization Laboratory | https://mpf-optimization-laboratory.github.io/opt-blog/\nMILD: Mathematics of Information, Learning and Data | https://mild.ubc.ca/\nIAM: Institute of Applied Mathematics | https://www.iam.ubc.ca/\nUniversity of British Columbia, Department of Mathematics | https://www.math.ubc.ca | Personal Profile"
+    "text": "Mathematics & Statistics Department | https://math.mcmaster.ca/\n\n\nOptimization Laboratory | https://mpf-optimization-laboratory.github.io/opt-blog/\nMILD: Mathematics of Information, Learning and Data | https://mild.ubc.ca/\nIAM: Institute of Applied Mathematics | https://www.iam.ubc.ca/\nUniversity of British Columbia, Department of Mathematics | https://www.math.ubc.ca | Personal Profile"
+  },
+  {
+    "objectID": "affiliations.html#former",
+    "href": "affiliations.html#former",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Optimization Laboratory | https://mpf-optimization-laboratory.github.io/opt-blog/\nMILD: Mathematics of Information, Learning and Data | https://mild.ubc.ca/\nIAM: Institute of Applied Mathematics | https://www.iam.ubc.ca/\nUniversity of British Columbia, Department of Mathematics | https://www.math.ubc.ca | Personal Profile"
   },
   {
     "objectID": "index.html",
