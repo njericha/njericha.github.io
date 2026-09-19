@@ -65,16 +65,17 @@ about:
 
 :::{#hero-heading}
 
-Hi! I'm a Postdoc at McMaster's Math & Stats department studying statistical clustering. I received my Bachelor of Mathematics in Mathematical Physics and Master's in Applied Mathematics from the University of Waterloo in 2020 and 2022 respectively. I completed my PhD in Mathematics at the Institute of Applied Mathematics located in the University of British Columbia in 2026. I am broadly interested in the tools and methods for automatically discovering patterns in data, and how we can accomplish this efficiently.
+Enjoyer of all things mathematical and musical; tech support for your data & science problems.
 
-Research interests include:
+I'm currently a postdoc at McMaster University. Please reach out if you'd like to collaborate (academically or musically) and I would be happy to connect!
 
-- clustering
-- image & signal processing
-- musical applications
-- unsupervised machine learning
-- tensor factorization
-- optimization
+**Research Interests:** unsupervised learning, audio & signal processing, clustering, scientific computing, optimization, and tensor factorization.
+
+### Education
+
+2022 -- 2026 | PhD Applied Mathematics, University of British Columbia\
+2020 -- 2022 | MMath Applied Mathematics, University of Waterloo\
+2016 -- 2020 | BMath Mathematical Physics, University of Waterloo
 
 ![Data tensor model from our paper *Tracing Sedimentary Origins in Multivariate Geochronology via Constrained Tensor Factorization* (2025).](files/images/geology_input_tensor.svg){width="85%" fig-align="center"}
 

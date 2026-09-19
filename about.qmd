@@ -4,6 +4,18 @@ description-meta: "Contact and Affiliations"
 title-block-banner: false
 ---
 
-{{< include contact.qmd >}}
+# Bio
+
+Enjoyer of all things mathematical and musical; I'm tech support for your data & science problems.
+
+I like to solve real problem by dissecting and developing the data and tools required to understand them. Some of my research interests include scientific computing, unsupervised learning, audio & signal processing, clustering, and tensor factorization. This has lead to interdisciplinary collaborations in fields such as computer science, statistics, geology, biology, and music.
+
+Teaching undergraduate topics like calculus, Python, and linear regression across different universities taught me learning goes both ways. I strive to see topics from multiple views to best distill complex ideas and train the next generation of problem solvers.
+
+When I'm not researching, coding, or teaching, you can find me singing and jamming with other musicians. My award winning a cappella arrangements and audio production & mixing can be found on YouTube and streaming platforms.
+
+Please reach out if you'd like to collaborate (academically or musically) and I would be happy to connect!
 
 {{< include affiliations.qmd >}}
+
+{{< include contact.qmd >}}

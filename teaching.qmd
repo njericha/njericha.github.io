@@ -4,6 +4,8 @@ title: "Teaching"
 title-block-banner: false
 ---
 
+Teaching undergraduate topics like calculus, Python, and linear regression across different universities taught me learning goes both ways. I strive to see topics from multiple views to best distill complex ideas and train the next generation of problem solvers.
+
 ## McMaster University
 
 ### Instructor
